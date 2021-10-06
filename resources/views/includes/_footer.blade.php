@@ -92,7 +92,7 @@
 
             </div>
             <div class="col-md-7">
-                <p>Botolplastik.id adalah agen distribusi produk botol plastik dengan grade medis berkualitas, melayani pelanggan di Surabaya, Jakarta, Semarang, Bali, Bandung, Yogyakarta, hingga ke seluruh wilayah di Indonesia</p>
+                <p>Botolplastik.id adalah agen distribusi produk botol plastik dengan grade medis berkualitas, melayani pelanggan di Surabaya, Jakarta, Semarang, Bali, Bandung, Yogyakarta, hingga ke seluruh wilayah di Indonesia.</p>
             </div>
             <div class="col-md-3 text-md-end">
                 <p>Copyright &copy; 2021 Botolplastik.id. <br> All rights reserved.</p>

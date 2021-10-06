@@ -77,9 +77,8 @@ body {
 }
 
 .nav-item > a:hover {
-    font-weight: 700;
     text-decoration: none;
-    color: #07308a !important;
+    color: #ae15eb !important;
 }
 
 .link-hover:hover {
