@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-white sticky-top">
+<nav class="navbar navbar-light navbar-expand-lg bg-white sticky-top">
   <div class="container px-md-0">
     <a href="#" class="navbar-brand"><img src="{{ url('image/logo.png') }}" height="50px" alt=""></a>
     <!-- <a class="navbar-brand" href="#">Navbar</a> -->

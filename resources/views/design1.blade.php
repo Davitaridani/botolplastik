@@ -119,11 +119,11 @@
             <h6 class="text-center pb-4 text-botol fw-bold">Lihat Lebih Lengkap Sesuai Kategori Koleksi:</h6>
             <div class="border-top border-bottom py-3">
                 <div class="d-md-flex justify-content-center fw-bold pt-2 mt-1">
-                    <p class="border-4 border-dark px-3 border-end"><a href="" class="text-decoration-none text-dark">PET Performs</a></p>
-                    <p class="border-4 border-dark px-3 border-end"><a href="" class="text-decoration-none text-dark">PET Bottles</a></p>
-                    <p class="border-4 border-dark px-3 border-end"><a href="" class="text-decoration-none text-dark">Dringking Cup</a></p>
-                    <p class="border-4 border-dark px-3 border-end"><a href="" class="text-decoration-none text-dark">Lids</a></p>
-                    <p class="border-4 border-dark px-3"><a href="" class="text-decoration-none text-dark">PP Jars</a></p>
+                    <p class="border-4 border-dark px-3 border-end"><a href="" class="text-decoration-none link-hover-lainnya text-dark">PET Performs</a></p>
+                    <p class="border-4 border-dark px-3 border-end"><a href="" class="text-decoration-none link-hover-lainnya text-dark">PET Bottles</a></p>
+                    <p class="border-4 border-dark px-3 border-end"><a href="" class="text-decoration-none link-hover-lainnya text-dark">Dringking Cup</a></p>
+                    <p class="border-4 border-dark px-3 border-end"><a href="" class="text-decoration-none link-hover-lainnya text-dark">Lids</a></p>
+                    <p class="border-4 border-dark px-3"><a href="" class="text-decoration-none text-dark link-hover-lainnya">PP Jars</a></p>
                 </div>
             </div>
         </div>
@@ -160,31 +160,31 @@
             <div class="container-fluid">
                 <div class="row g-2 g-lg-3 justify-content-between">
                     <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
-                        <img src="{{ url('image/mip.png') }}" width="100%" alt="">
+                        <a href=""><img src="{{ url('image/mip.png') }}" width="100%" alt=""></a>
                     </div>
                     <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
-                        <img src="{{ url('image/pms.png') }}" width="100%" alt="">
+                        <a href=""><img src="{{ url('image/pms.png') }}" width="100%" alt=""></a>
                     </div>
                     <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
-                        <img src="{{ url('image/wilco.png') }}" width="100%" alt="">
+                        <a href=""><img src="{{ url('image/wilco.png') }}" width="100%" alt=""></a>
                     </div>
                     <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
-                        <img src="{{ url('image/donat.png') }}" width="100%" alt="">
+                        <a href=""><img src="{{ url('image/donat.png') }}" width="100%" alt=""></a>
                     </div>
                     <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
-                        <img src="{{ url('image/nitigura.png') }}" width="100%" alt="">
+                        <a href=""><img src="{{ url('image/nitigura.png') }}" width="100%" alt=""></a>
                     </div>
                     <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
-                        <img src="{{ url('image/cirebon.png') }}" width="100%" alt="">
+                        <a href=""><img src="{{ url('image/cirebon.png') }}" width="100%" alt=""></a>
                     </div>
                     <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
-                        <img src="{{ url('image/dream_wear.png') }}" width="100%" alt="">
+                        <a href=""><img src="{{ url('image/dream_wear.png') }}" width="100%" alt=""></a>
                     </div>
                     <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
-                        <img src="{{ url('image/ciptakan.png') }}" width="100%" alt="">
+                        <a href=""><img src="{{ url('image/ciptakan.png') }}" width="100%" alt=""></a>
                     </div>
                     <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
-                        <img src="{{ url('image/pick.png') }}" width="100%" alt="">
+                        <a href=""><img src="{{ url('image/pick.png') }}" width="100%" alt=""></a>
                     </div>
                 </div>
             </div>

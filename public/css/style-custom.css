@@ -73,5 +73,22 @@ body {
 
 .nav-item > a {
     text-decoration: none;
-    color: #07308a;
+    color: #07308a !important;
 }
+
+.nav-item > a:hover {
+    font-weight: 700;
+    text-decoration: none;
+    color: #07308a !important;
+}
+
+.link-hover:hover {
+    font-weight: 600;
+    color: #2e53a3 !important;
+}
+
+.link-hover-lainnya:hover {
+    font-weight: 600;
+    color: #2e53a3 !important;
+}
+
