@@ -22,42 +22,42 @@ $router->get('/home', function () {
         'title' => 'BotolPlastik',
         'produk' => [
             [
-                'image' => 'image/botol/botol1.png',
+                'image' => 'images/produk1.jpg',
                 'nama' => 'Botol Plastik 1',
                 'link' => ''
             ],
             [
-                'image' => 'image/botol/botol2.png',
+                'image' => 'images/produk2.jpg',
                 'nama' => 'Botol Plastik 2',
                 'link' => ''
             ],
             [
-                'image' => 'image/botol/botol3.png',
+                'image' => 'images/produk3.jpg',
                 'nama' => 'Botol Plastik 3',
                 'link' => ''
             ],
             [
-                'image' => 'image/botol/botol4.png',
+                'image' => 'images/produk4.jpg',
                 'nama' => 'Botol Plastik 4',
                 'link' => ''
             ],
             [
-                'image' => 'image/botol/botol5.png',
+                'image' => 'images/produk5.jpg',
                 'nama' => 'Botol Plastik 1',
                 'link' => ''
             ],
             [
-                'image' => 'image/botol/botol6.png',
+                'image' => 'images/produk6.jpg',
                 'nama' => 'Botol Plastik 2',
                 'link' => ''
             ],
             [
-                'image' => 'image/botol/botol7.png',
+                'image' => 'images/produk7.jpg',
                 'nama' => 'Botol Plastik 3',
                 'link' => ''
             ],
             [
-                'image' => 'image/botol/botol8.png',
+                'image' => 'images/produk8.jpg',
                 'nama' => 'Botol Plastik 4',
                 'link' => ''
             ]

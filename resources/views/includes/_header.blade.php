@@ -1,6 +1,6 @@
 <nav class="navbar navbar-light navbar-expand-lg bg-white sticky-top">
   <div class="container px-md-0">
-    <a href="#" class="navbar-brand"><img src="{{ url('image/logo.png') }}" height="50px" alt=""></a>
+    <a href="#" class="navbar-brand"><img src="{{ url('images/logo-botolplastik.png') }}" height="50px" alt=""></a>
     <!-- <a class="navbar-brand" href="#">Navbar</a> -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

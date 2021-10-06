@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;500;600;700&display=swap');
 body {
-    font-family: 'Encode Sans Expanded', sans-serif;
+    font-family: 'Encode Sans', sans-serif;
 }
 
 .font-merri {
@@ -71,12 +70,12 @@ body {
     font-weight: 600;
 }
 
-.nav-item > a {
+.nav-item>a {
     text-decoration: none;
     color: #07308a !important;
 }
 
-.nav-item > a:hover {
+.nav-item>a:hover {
     text-decoration: none;
     color: #ae15eb !important;
 }
@@ -91,3 +90,66 @@ body {
     color: #2e53a3 !important;
 }
 
+.me-8 {
+    margin-right: 8px;
+}
+
+.me-13 {
+    margin-right: 13px;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.w-17 {
+    width: 17px;
+}
+
+.fs-10 {
+    font-size: 10px;
+}
+
+.fs-11 {
+    font-size: 11px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-17 {
+    font-size: 17px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-19 {
+    font-size: 19px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-21 {
+    font-size: 21px;
+}

@@ -130,7 +130,7 @@
 
         <div class="container-fluid px-0">
             <div class="card bg-dark text-white">
-                <img src="{{ url('image/banner-bawah.jpg') }}" class="card-img" alt="...">
+                <img src="{{ url('images/gbr-bawah.jpg') }}" class="card-img" alt="...">
                 <div class="card-img-overlay d-flex bg-gradasi-botol ps-5 w-50 align-items-center">
                     <div class="font-merri">
                         <h1 class="card-title display-4 my-0 fw-bold">Follow Kami</h1>
@@ -158,7 +158,8 @@
         </div>
         <div class="container-fluid py-4 border-top">
             <div class="container-fluid">
-                <div class="row g-2 g-lg-3 justify-content-between">
+                <img src="{{ url('images/logo-logo.jpg') }}" alt="" class="w-100">
+                <!-- <div class="row g-2 g-lg-3 justify-content-between">
                     <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
                         <a href=""><img src="{{ url('image/mip.png') }}" width="100%" alt=""></a>
                     </div>
@@ -186,7 +187,7 @@
                     <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
                         <a href=""><img src="{{ url('image/pick.png') }}" width="100%" alt=""></a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>

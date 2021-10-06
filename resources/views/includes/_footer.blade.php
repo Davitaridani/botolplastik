@@ -2,8 +2,8 @@
     <div class="container-fluid border-top border-bottom">
         <div class="row justify-content-between mx-0">
             <div class="col-md-3 border-end">
-                <div class="ps-4">
-                    <h6 class="fw-bold text-botol pt-5">Produk Botolplastik.id</h6>
+                <div class="ps-4 fs-13">
+                    <h6 class="fw-bold text-botol pt-5 fs-15">Produk Botolplastik.id</h6>
                     <br>
                     <a href="#" class="text-decoration-none text-dark link-hover">
                         <p>PET Preforms</p>
@@ -15,20 +15,16 @@
                         <p>Dringking Cup</p>
                     </a>
                     <a href="#" class="text-decoration-none text-dark link-hover">
-                        <p>
-                            <p>Lids</p>
-                        </p>
+                        <p>Lids</p>
                     </a>
                     <a href="#" class="text-decoration-none text-dark link-hover">
-                        <p>
-                            <p>PP Jars</p>
-                        </p>
+                        <p>PP Jars</p>
                     </a>
                 </div>
             </div>
             <div class="col-md-3 border-end">
-                <div class="ps-4">
-                    <h6 class="fw-bold text-botol pt-5">Browser Botolplastik.id</h6>
+                <div class="ps-4 fs-13">
+                    <h6 class="fw-bold text-botol pt-5 fs-15">Browser Botolplastik.id</h6>
                     <br>
                     <a href="#" class="text-decoration-none text-dark link-hover">
                         <p>Tentang Kami</p>
@@ -39,14 +35,14 @@
                 </div>
             </div>
             <div class="col-md-3 border-end">
-                <div class="ps-4">
-                    <h6 class="fw-bold text-botol pt-5">Pemesanan Produk</h6>
+                <div class="ps-4 fs-13">
+                    <h6 class="fw-bold text-botol pt-5 fs-15">Pemesanan Produk</h6>
                     <br>
                     <div class="row">
-                        <div class="col-1 pe-3">
-                            <p><i class="fab fa-whatsapp fw-bold"></i></p>
+                        <div class="col-1 me-13 fs-13">
+                            <img src="{{ url('images/whatsapp-footer.png') }}" alt="" class="w-17">
                         </div>
-                        <div class="col-10">
+                        <div class="col-10 fs-13">
                             <a href="http://wa.me/6282817040048" class="text-decoration-none text-dark link-hover">
                                 <p>Whatsapp +62 828 1704 0048</p>
                             </a>
@@ -54,10 +50,10 @@
 
                     </div>
                     <div class="row">
-                        <div class="col-1 pe-3">
-                            <p><i class="fas fa-home fw-bold"></i></p>
+                        <div class="col-1 fs-13  me-13">
+                            <img src="{{ url('images/home.png') }}" class="w-17" alt="">
                         </div>
-                        <div class="col-10">
+                        <div class="col-10 fs-13">
                             <p><strong>Marketing Office</strong></p>
                             <p>Jl. Kertajaya</p>
                             <p>Surabaya, Jawa Timur - Indonesia</p>
@@ -66,12 +62,12 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="ps-4">
-                    <h6 class="fw-bold text-botol pt-5">Produk Botolplastik.id</h6>
+                <div class="ps-4 fs-13">
+                    <h6 class="fw-bold text-botol pt-5 fs-15">Produk Botolplastik.id</h6>
                     <br>
                     <div class="row">
-                        <div class="col-1 pe-3">
-                            <p><i class="fab fa-instagram fw-bold"></i></p>
+                        <div class="col-1 me-8">
+                            <img src="{{ url('images/instagram.png') }}" class="w-17" alt="">
                         </div>
                         <div class="col-10">
                             <a href="https://www.instagram.com/botolplastik.idn/" class="text-decoration-none text-dark link-hover">
