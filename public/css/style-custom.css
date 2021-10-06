@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+body {
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+.font-merri {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.font-hind {
+    font-family: 'Hind', sans-serif;
+}
+
+.bg-botol {
+    background-color: #0098db;
+}
+
+.bg-botol-tua {
+    background-color: #2e53a3;
+}
+
+.text-botol {
+    color: #2e53a3;
+}
+
+.carousel-indicators {
+    top: 78%;
+    margin-left: -780px;
+}
+
+.carousel-indicators>.indicator-item>.active {
+    background-color: white;
+}
+
+.carousel-indicators>.indicator-item>button {
+    background-color: #0098db;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 576px) {
+    .carousel-indicators {
+        top: 80%;
+        right: 0%;
+        left: 0%;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+}
+
+.fs-12 {
+    font-size: 12px;
+    ;
+}
+
+.bg-gradasi-botol {
+    background: rgb(48, 83, 165);
+    background: linear-gradient(90deg, rgba(48, 83, 165, 1) 40%, rgba(255, 255, 255, 0) 100%);
+}
+
+.letter-spacing {
+    letter-spacing: 2px;
+}
+
+.fw-nav {
+    font-weight: 600;
+}
+
+.nav-item > a {
+    text-decoration: none;
+    color: #07308a;
+}
