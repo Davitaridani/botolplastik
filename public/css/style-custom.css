@@ -21,7 +21,16 @@ body {
 }
 
 .text-botol {
-    color: #2e53a3;
+    color: #3053a4;
+}
+
+.text-biru-tua {
+    color: #122251;
+}
+
+.border-end-custom {
+    border-right: solid;
+    border-color: #122251;
 }
 
 .carousel-indicators {
@@ -81,13 +90,19 @@ body {
 }
 
 .link-hover:hover {
-    font-weight: 600;
     color: #2e53a3 !important;
 }
 
 .link-hover-lainnya:hover {
-    font-weight: 600;
     color: #2e53a3 !important;
+}
+
+.mb-35 {
+    margin-bottom: 35px;
+}
+
+.mb-85 {
+    margin-bottom: 85px;
 }
 
 .me-8 {
@@ -184,6 +199,42 @@ body {
 
 .fs-21 {
     font-size: 21px;
+}
+
+.fs-22 {
+    font-size: 22px;
+}
+
+.fs-23 {
+    font-size: 23px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.fs-26 {
+    font-size: 26px;
+}
+
+.fs-27 {
+    font-size: 27px;
+}
+
+.fs-28 {
+    font-size: 28px;
+}
+
+.fs-29 {
+    font-size: 29px;
+}
+
+.fs-30 {
+    font-size: 30px;
 }
 
 .fs-45 {
