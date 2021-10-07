@@ -20,10 +20,10 @@
           <a class="nav-link" href="#">Hubungi Kami</a>
         </li>
         <li class="nav-item ms-lg-5 ms-0">
-          <a class="nav-link" href="#">Whatsapp</a>
+          <a class="nav-link" href="http://wa.me/6282817040048">Whatsapp</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fab fa-whatsapp ms-1 fw-bold fs-4"></i></a>
+          <a class="nav-link" href="http://wa.me/6282817040048"><i class="fab fa-whatsapp ms-1 fw-bold fs-4"></i></a>
         </li>
       </ul>
     </div>
