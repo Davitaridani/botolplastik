@@ -28,39 +28,39 @@
             </div>
             <div class="carousel-item">
                 <img src="{{ url('images/gbr-atas.jpg') }}" class="d-block w-100" alt="...">
-                <div class="container card-img-overlay d-flex align-items-center">
-                    <div class="row d-none d-lg-block mx-0">
+                <div class="container card-img-overlay d-flex align-items-center px-0 ms-crs mt-5 pt-5">
+                    <div class="row d-none d-lg-block mt-5 pt-2 mx-0">
                         <div class="col-6 pe-5">
                             <h2 class="card-title fw-bold pe-5">Beli Botol Plastik Langsung Dari Pabriknya!</h2>
                             <p class="card-text mb-0 pe-5 me-4">Kami hadirkan aneka botol plastik dengan mutu dan kualitas grade medis, diproduksi dengan teknologi dan kualitas tinggi serta bersertifikat ISO!</p>
-                            <p class="card-text fw-bold">Langsung dari pabrik untuk harga terbaik!</p>
-                            <button class="btn btn-info bg-botol border-0 rounded-pill fw-bold px-4 my-4 text-white">Lihat Koleksi <i class="fas fa-chevron-right ms-4"></i></button>
+                            <p class="card-text fw-bold mb-0 px-0">Langsung dari pabrik untuk harga terbaik!</p>
+                            <button class="btn btn-info bg-botol border-0 mt-50 rounded-pill fw-bold px-4 text-white">Lihat Koleksi <i class="fas fa-chevron-right ms-4"></i></button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="{{ url('images/gbr-atas.jpg') }}" class="d-block w-100" alt="...">
-                <div class="container card-img-overlay d-flex align-items-center">
-                    <div class="row d-none d-lg-block mx-0">
+                <div class="container card-img-overlay d-flex align-items-center px-0 ms-crs mt-5 pt-5">
+                    <div class="row d-none d-lg-block mt-5 pt-2 mx-0">
                         <div class="col-6 pe-5">
                             <h2 class="card-title fw-bold pe-5">Beli Botol Plastik Langsung Dari Pabriknya!</h2>
                             <p class="card-text mb-0 pe-5 me-4">Kami hadirkan aneka botol plastik dengan mutu dan kualitas grade medis, diproduksi dengan teknologi dan kualitas tinggi serta bersertifikat ISO!</p>
-                            <p class="card-text fw-bold">Langsung dari pabrik untuk harga terbaik!</p>
-                            <button class="btn btn-info bg-botol border-0 rounded-pill fw-bold px-4 my-4 text-white">Lihat Koleksi <i class="fas fa-chevron-right ms-4"></i></button>
+                            <p class="card-text fw-bold mb-0 px-0">Langsung dari pabrik untuk harga terbaik!</p>
+                            <button class="btn btn-info bg-botol border-0 mt-50 rounded-pill fw-bold px-4 text-white">Lihat Koleksi <i class="fas fa-chevron-right ms-4"></i></button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="{{ url('images/gbr-atas.jpg') }}" class="d-block w-100" alt="...">
-                <div class="container card-img-overlay d-flex align-items-center">
-                    <div class="row d-none d-lg-block mx-0">
+                <div class="container card-img-overlay d-flex align-items-center px-0 ms-crs mt-5 pt-5">
+                    <div class="row d-none d-lg-block mt-5 pt-2 mx-0">
                         <div class="col-6 pe-5">
                             <h2 class="card-title fw-bold pe-5">Beli Botol Plastik Langsung Dari Pabriknya!</h2>
                             <p class="card-text mb-0 pe-5 me-4">Kami hadirkan aneka botol plastik dengan mutu dan kualitas grade medis, diproduksi dengan teknologi dan kualitas tinggi serta bersertifikat ISO!</p>
-                            <p class="card-text fw-bold">Langsung dari pabrik untuk harga terbaik!</p>
-                            <button class="btn btn-info bg-botol border-0 rounded-pill fw-bold px-4 my-4 text-white">Lihat Koleksi <i class="fas fa-chevron-right ms-4"></i></button>
+                            <p class="card-text fw-bold mb-0 px-0">Langsung dari pabrik untuk harga terbaik!</p>
+                            <button class="btn btn-info bg-botol border-0 mt-50 rounded-pill fw-bold px-4 text-white">Lihat Koleksi <i class="fas fa-chevron-right ms-4"></i></button>
                         </div>
                     </div>
                 </div>
@@ -78,12 +78,12 @@
     </div>
 
     <section id="content">
-        <div class="container py-3 pt-5 mt-5">
-            <h6 class="text-center fw-bold">Tentang BotolPlastik.id</h6>
+        <div class="container mb-40 mt-150">
+            <h6 class="text-center fw-bold my-0">Tentang BotolPlastik.id</h6>
         </div>
         <div class="container-fluid">
-            <h1 class="h1 mb-4 text-center text-botol fw-bold font-merri">Unggul dalam harga, kualitas dan design</h1>
-            <p class="w-75 text-center mx-auto mb-5">Botolplastik.id adalah divisi trading yang menjual aneka produk botol plastik dan variasi kelengkapannya, dari korporasi pabrik pabrik plastik unggul di Indonesia, yakni Suryasukses Group. Botolplastik.id hanya akan mendistribusikan produk botol plastik bermutu tinggi terbaik - medical grade, dari bahan baku plastik pilihan berkualitas tinggi. Botolplastik.id didirikan untuk dapat menjangkau konsumen pengusaha retail yang bergerak di bidang makanan dan minuman mulai dari konsumen ukm, industri rumah tangga, hingga industri besar sekalipun. Dengan pengalaman lebih dari 3 dekade dibidang plastik, kami memiliki pengalaman panjang dan luas serta jaringan distribusi produk plastik di seluruh kota besar di Indonesia seperti Jakarta, Surabaya, Semarang, Yogyakarta, Bandung, Bali dan masih banyak lagi. Dengan pengalaman dan pengetahuan unik dari para pendiri kami, kami adalah mitra terbaik dan paling menguntungkan Anda untuk jangka panjang.</p>
+            <h1 class="h1 text-center text-botol fw-bold font-merri mb-40">Unggul dalam harga, kualitas dan design</h1>
+            <p class="w-75 text-center px-3 mb-40 mx-auto">Botolplastik.id adalah divisi trading yang menjual aneka produk botol plastik dan variasi kelengkapannya, dari korporasi pabrik pabrik plastik unggul di Indonesia, yakni Suryasukses Group. Botolplastik.id hanya akan mendistribusikan produk botol plastik bermutu tinggi terbaik - medical grade, dari bahan baku plastik pilihan berkualitas tinggi. Botolplastik.id didirikan untuk dapat menjangkau konsumen pengusaha retail yang bergerak di bidang makanan dan minuman mulai dari konsumen ukm, industri rumah tangga, hingga industri besar sekalipun. Dengan pengalaman lebih dari 3 dekade dibidang plastik, kami memiliki pengalaman panjang dan luas serta jaringan distribusi produk plastik di seluruh kota besar di Indonesia seperti Jakarta, Surabaya, Semarang, Yogyakarta, Bandung, Bali dan masih banyak lagi. Dengan pengalaman dan pengetahuan unik dari para pendiri kami, kami adalah mitra terbaik dan paling menguntungkan Anda untuk jangka panjang.</p>
         </div>
 
         <div class="container pt-5 pb-5">
@@ -186,7 +186,7 @@
                 @endforeach
             </div>
         </div>
-        <div class="container-fluid py-5">
+        <div class="container-fluid px-0 py-5">
             <h6 class="text-center pb-4 text-botol fw-bold">Lihat Lebih Lengkap Sesuai Kategori Koleksi:</h6>
             <div class="border-top border-bottom py-3">
                 <div class="d-md-flex justify-content-center fw-bold pt-2 mt-1 fs-15">

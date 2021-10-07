@@ -39,7 +39,7 @@ body {
 
 .carousel-indicators {
     margin-left: 111px;
-    margin-bottom: 55px;
+    margin-bottom: 75px;
 }
 
 .carousel-indicators>.indicator-item>.active {
@@ -143,6 +143,13 @@ body {
     margin-top: 60px;
 }
 
+.mt-150 {
+    margin-top: 150px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
 .pt-30 {
     padding-top: 35px;
 }
