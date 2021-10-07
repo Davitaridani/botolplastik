@@ -280,3 +280,18 @@ body {
         max-width: 1520px;
     }
 }
+
+.py-24 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.brand-md-cs {
+    height: 65px;
+}
+
+@media screen and (max-width: 576px) {
+    .brand-md-cs {
+        height: 50px;
+    }
+}

@@ -129,7 +129,7 @@
                     <div class="card bg-white border-0">
                         <img src="{{ url($items['image']) }}" class="card-img-top" alt="...">
                         <div class="card-body text-center">
-                            <h6 class="card-title text-botol fw-bold py-2 fs-18">{{ $items["nama"] }}</h6>
+                            <h6 class="card-title text-botol fw-bold py-24 fs-18">{{ $items["nama"] }}</h6>
                             <a href="#" class="btn btn-primary bg-botol-tua fw-bold fs-15">Lihat Produk</a>
                         </div>
                     </div>
@@ -148,7 +148,7 @@
                     <div class="card bg-white border-0">
                         <img src="{{ url($items['image']) }}" class="card-img-top" alt="...">
                         <div class="card-body text-center">
-                            <h6 class="card-title text-botol fw-bold py-2 fs-18">{{ $items["nama"] }}</h6>
+                            <h6 class="card-title text-botol fw-bold py-24 fs-18">{{ $items["nama"] }}</h6>
                             <a href="#" class="btn btn-primary bg-botol-tua fw-bold fs-15">Lihat Produk</a>
                         </div>
                     </div>
@@ -167,7 +167,7 @@
                     <div class="card bg-white border-0">
                         <img src="{{ url($items['image']) }}" class="card-img-top" alt="...">
                         <div class="card-body text-center">
-                            <h6 class="card-title text-botol fw-bold py-2 fs-18">{{ $items["nama"] }}</h6>
+                            <h6 class="card-title text-botol fw-bold py-24 fs-18">{{ $items["nama"] }}</h6>
                             <a href="#" class="btn btn-primary bg-botol-tua fw-bold fs-15">Lihat Produk</a>
                         </div>
                     </div>
@@ -178,8 +178,8 @@
                     <div class="card bg-white border-0">
                         <img src="{{ url($items['image']) }}" class="card-img-top" alt="...">
                         <div class="card-body text-center">
-                            <h6 class="card-title text-botol fw-bold py-2 fs-18">{{ $items["nama"] }}</h6>
-                            <a href="#" class="btn btn-primary bg-botol-tua fw-bold">Lihat Produk</a>
+                            <h6 class="card-title text-botol fw-bold py-24 fs-18">{{ $items["nama"] }}</h6>
+                            <a href="#" class="btn btn-primary bg-botol-tua fw-bold fs-15">Lihat Produk</a>
                         </div>
                     </div>
                 </div>
@@ -187,9 +187,9 @@
             </div>
         </div>
         <div class="container-fluid px-0 py-5">
-            <h6 class="text-center pb-4 text-botol fw-bold">Lihat Lebih Lengkap Sesuai Kategori Koleksi:</h6>
+            <h6 class="text-center pb-4 text-botol px-5 fw-bold">Lihat Lebih Lengkap Sesuai Kategori Koleksi:</h6>
             <div class="border-top border-bottom py-3">
-                <div class="d-md-flex justify-content-center fw-bold pt-2 mt-1 fs-15">
+                <div class="d-md-flex justify-content-center fw-bold container px-4 pt-2 mt-1 fs-15">
                     <p class="border-4 px-3 border-end-custom"><a href="" class="text-decoration-none link-hover-lainnya text-biru-tua">PET Performs</a></p>
                     <p class="border-4 px-3 border-end-custom"><a href="" class="text-decoration-none link-hover-lainnya text-biru-tua">PET Bottles</a></p>
                     <p class="border-4 px-3 border-end-custom"><a href="" class="text-decoration-none link-hover-lainnya text-biru-tua">Dringking Cup</a></p>
@@ -203,7 +203,7 @@
             <div class="card bg-dark text-white">
                 <img src="{{ url('images/gbr-bawah.jpg') }}" class="card-img" alt="...">
                 <div class="card-img-overlay d-flex bg-gradasi-botol ms-3 ps-5 w-50 align-items-center">
-                    <div class="font-merri py-5">
+                    <div class="font-merri py-5 d-none d-lg-block">
                         <h1 class="card-title fs-45 my-0 fw-600">Follow Kami</h1>
                         <h1 class="card-title fs-45 mb-3 fw-normal">di Instagram</h1>
                         <p class="card-text fs-13 mb-0 pb-0 w-normal w-60">Dapatkan informasi dan update seputar produk Botol Plastik serta aneka informasi menarik.</p>
@@ -229,36 +229,35 @@
         </div>
         <div class="container-fluid py-4 border-top">
             <div class="container-fluid">
-                <img src="{{ url('images/logo-logo.jpg') }}" alt="" class="w-100">
-                <!-- <div class="row g-2 g-lg-3 justify-content-between">
+                <div class="row g-2 g-lg-3 mx-0 justify-content-between">
                     <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
-                        <a href=""><img src="{{ url('image/mip.png') }}" width="100%" alt=""></a>
+                        <a href=""><img src="{{ url('images/logo_1.jpg') }}" width="100%" alt=""></a>
                     </div>
                     <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
-                        <a href=""><img src="{{ url('image/pms.png') }}" width="100%" alt=""></a>
+                        <a href=""><img src="{{ url('images/logo_2.jpg') }}" width="100%" alt=""></a>
                     </div>
                     <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
-                        <a href=""><img src="{{ url('image/wilco.png') }}" width="100%" alt=""></a>
+                        <a href=""><img src="{{ url('images/logo_3.jpg') }}" width="100%" alt=""></a>
                     </div>
                     <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
-                        <a href=""><img src="{{ url('image/donat.png') }}" width="100%" alt=""></a>
+                        <a href=""><img src="{{ url('images/logo_4.jpg') }}" width="100%" alt=""></a>
                     </div>
                     <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
-                        <a href=""><img src="{{ url('image/nitigura.png') }}" width="100%" alt=""></a>
+                        <a href=""><img src="{{ url('images/logo_5.jpg') }}" width="100%" alt=""></a>
                     </div>
                     <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
-                        <a href=""><img src="{{ url('image/cirebon.png') }}" width="100%" alt=""></a>
+                        <a href=""><img src="{{ url('images/logo_6.jpg') }}" width="100%" alt=""></a>
                     </div>
                     <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
-                        <a href=""><img src="{{ url('image/dream_wear.png') }}" width="100%" alt=""></a>
+                        <a href=""><img src="{{ url('images/logo_7.jpg') }}" width="100%" alt=""></a>
                     </div>
                     <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
-                        <a href=""><img src="{{ url('image/ciptakan.png') }}" width="100%" alt=""></a>
+                        <a href=""><img src="{{ url('images/logo_8.jpg') }}" width="100%" alt=""></a>
                     </div>
                     <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
-                        <a href=""><img src="{{ url('image/pick.png') }}" width="100%" alt=""></a>
+                        <a href=""><img src="{{ url('images/logo_9.jpg') }}" width="100%" alt=""></a>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
     </section>

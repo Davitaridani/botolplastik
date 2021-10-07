@@ -1,11 +1,11 @@
 <nav class="navbar navbar-light navbar-expand-lg bg-white sticky-top">
-  <div class="container px-md-0 align-items-end">
-    <a href="#" class="navbar-brandp py-nav"><img src="{{ url('images/logo-botolplastik.png') }}" height="65px" alt=""></a>
+  <div class="container px-md-0">
+    <a href="#" class="navbar-brand py-nav"><img src="{{ url('images/logo-botolplastik.png') }}" class="brand-md-cs" alt=""></a>
     <!-- <a class="navbar-brand" href="#">Navbar</a> -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-end align-items-end pb-2" id="navbarNav">
+    <div class="collapse navbar-collapse justify-content-end align-items-end pb-md-2 mt-md-5 mt-0 pt-0  pt-md-1 pb-0" id="navbarNav">
       <ul class="navbar-nav fw-nav text-center fs-15">
         <li class="nav-item text-botol">
           <a class="nav-link text-botol active" aria-current="page" href="#">Home</a>
