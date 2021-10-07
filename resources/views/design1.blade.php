@@ -16,7 +16,7 @@
             <div class="carousel-item active">
                 <img src="https://marshalledc.org/sites/default/files/banner/mountains.jpg" class="d-block w-100" alt="...">
                 <div class="container card-img-overlay d-flex align-items-center">
-                    <div class="row d-none d-lg-block">
+                    <div class="row d-none d-lg-block mx-0">
                         <div class="col-6 pe-5">
                             <h2 class="card-title fw-bold pe-5">Beli Botol Plastik Langsung Dari Pabriknya!</h2>
                             <p class="card-text mb-0 pe-5 me-4">Kami hadirkan aneka botol plastik dengan mutu dan kualitas grade medis, diproduksi dengan teknologi dan kualitas tinggi serta bersertifikat ISO!</p>
@@ -29,7 +29,7 @@
             <div class="carousel-item">
                 <img src="https://marshalledc.org/sites/default/files/banner/mountains.jpg" class="d-block w-100" alt="...">
                 <div class="container card-img-overlay d-flex align-items-center">
-                    <div class="row d-none d-lg-block">
+                    <div class="row d-none d-lg-block mx-0">
                         <div class="col-6 pe-5">
                             <h2 class="card-title fw-bold pe-5">Beli Botol Plastik Langsung Dari Pabriknya!</h2>
                             <p class="card-text mb-0 pe-5 me-4">Kami hadirkan aneka botol plastik dengan mutu dan kualitas grade medis, diproduksi dengan teknologi dan kualitas tinggi serta bersertifikat ISO!</p>
@@ -42,7 +42,7 @@
             <div class="carousel-item">
                 <img src="https://marshalledc.org/sites/default/files/banner/mountains.jpg" class="d-block w-100" alt="...">
                 <div class="container card-img-overlay d-flex align-items-center">
-                    <div class="row d-none d-lg-block">
+                    <div class="row d-none d-lg-block mx-0">
                         <div class="col-6 pe-5">
                             <h2 class="card-title fw-bold pe-5">Beli Botol Plastik Langsung Dari Pabriknya!</h2>
                             <p class="card-text mb-0 pe-5 me-4">Kami hadirkan aneka botol plastik dengan mutu dan kualitas grade medis, diproduksi dengan teknologi dan kualitas tinggi serta bersertifikat ISO!</p>
@@ -55,7 +55,7 @@
             <div class="carousel-item">
                 <img src="https://marshalledc.org/sites/default/files/banner/mountains.jpg" class="d-block w-100" alt="...">
                 <div class="container card-img-overlay d-flex align-items-center">
-                    <div class="row d-none d-lg-block">
+                    <div class="row d-none d-lg-block mx-0">
                         <div class="col-6 pe-5">
                             <h2 class="card-title fw-bold pe-5">Beli Botol Plastik Langsung Dari Pabriknya!</h2>
                             <p class="card-text mb-0 pe-5 me-4">Kami hadirkan aneka botol plastik dengan mutu dan kualitas grade medis, diproduksi dengan teknologi dan kualitas tinggi serta bersertifikat ISO!</p>
@@ -131,17 +131,17 @@
         <div class="container-fluid px-0">
             <div class="card bg-dark text-white">
                 <img src="{{ url('images/gbr-bawah.jpg') }}" class="card-img" alt="...">
-                <div class="card-img-overlay d-flex bg-gradasi-botol ps-5 w-50 align-items-center">
-                    <div class="font-merri">
-                        <h1 class="card-title display-4 my-0 fw-bold">Follow Kami</h1>
-                        <h1 class="card-title display-4 mb-3">di Instagram</h1>
-                        <p class="card-text f w-normal w-75">Dapatkan informasi dan update seputar produk Botol Plastik serta aneka informasi menarik.</p>
-                        <div class="d-flex position-relative">
-                            <i class="fab fa-instagram flex-shrink-0 display-3 me-4"></i>
+                <div class="card-img-overlay d-flex bg-gradasi-botol ms-3 ps-5 w-50 align-items-center">
+                    <div class="font-merri py-5">
+                        <h1 class="card-title fs-45 my-0 fw-600">Follow Kami</h1>
+                        <h1 class="card-title fs-45 mb-3 fw-normal">di Instagram</h1>
+                        <p class="card-text fs-13 mb-0 pb-0 w-normal w-60">Dapatkan informasi dan update seputar produk Botol Plastik serta aneka informasi menarik.</p>
+                        <div class="d-flex position-relative pt-33">
+                            <img src="{{ url('images/instagram-putih.png') }}" alt="" class="me-15">
                             <div class="d-flex align-items-center">
-                                <div>
-                                    <h6 class="my-0 text-uppercase fs-12 letter-spacing">Instagram</h6>
-                                    <a href="#" class="stretched-link fw-bold text-decoration-none text-white">botolplastik.idn</a>
+                                <div class="w-75 lh-1">
+                                    <span class="mb-0 pb-0 text-uppercase fs-11 letter-spacing">Instagram</span>
+                                    <a href="#" class="stretched-link fw-bold text-decoration-none text-white fs-14">botolplastik.idn</a>
                                 </div>
                             </div>
                         </div>
@@ -153,8 +153,8 @@
 
 
     <section id="pelanggan">
-        <div class="container py-5">
-            <h6 class="text-botol text-center fw-bold">Pelanggan Kami :</h6>
+        <div class="container pb-4 mb-1">
+            <h6 class="text-botol text-center fw-bold mt-60">Pelanggan Kami :</h6>
         </div>
         <div class="container-fluid py-4 border-top">
             <div class="container-fluid">

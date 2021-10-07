@@ -98,12 +98,44 @@ body {
     margin-right: 13px;
 }
 
+.me-30 {
+    margin-right: 30px;
+}
+
+.me-15 {
+    margin-right: 15px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.pt-30 {
+    padding-top: 35px;
+}
+
 .fw-600 {
     font-weight: 600;
 }
 
+.fw-700 {
+    font-weight: 700;
+}
+
 .w-17 {
     width: 17px;
+}
+
+.pt-33 {
+    padding-top: 33px;
+}
+
+.fs-9 {
+    font-size: 9px;
 }
 
 .fs-10 {
@@ -152,4 +184,21 @@ body {
 
 .fs-21 {
     font-size: 21px;
+}
+
+.fs-45 {
+    font-size: 45px;
+}
+
+.ukuran-logo-bawah {
+    height: 35px;
+}
+
+.w-60 {
+    width: 55%;
+}
+
+.logo-banner-bawah {
+    width: 40px;
+    height: 40px;
 }

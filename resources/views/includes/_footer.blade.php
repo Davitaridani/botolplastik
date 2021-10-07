@@ -1,10 +1,9 @@
 <section id="footer" class="font-merri fw-light">
     <div class="container-fluid border-top border-bottom">
         <div class="row justify-content-between mx-0">
-            <div class="col-md-3 border-end">
+            <div class="col-md-3 border-end pb-2">
                 <div class="ps-4 fs-13">
-                    <h6 class="fw-bold text-botol pt-5 fs-15">Produk Botolplastik.id</h6>
-                    <br>
+                    <h6 class="fw-bold text-botol pt-30 fs-15 mb-30">Produk Botolplastik.id</h6>
                     <a href="#" class="text-decoration-none text-dark link-hover">
                         <p>PET Preforms</p>
                     </a>
@@ -24,8 +23,7 @@
             </div>
             <div class="col-md-3 border-end">
                 <div class="ps-4 fs-13">
-                    <h6 class="fw-bold text-botol pt-5 fs-15">Browser Botolplastik.id</h6>
-                    <br>
+                    <h6 class="fw-bold text-botol pt-30 fs-15 mb-30">Browser Botolplastik.id</h6>
                     <a href="#" class="text-decoration-none text-dark link-hover">
                         <p>Tentang Kami</p>
                     </a>
@@ -36,8 +34,7 @@
             </div>
             <div class="col-md-3 border-end">
                 <div class="ps-4 fs-13">
-                    <h6 class="fw-bold text-botol pt-5 fs-15">Pemesanan Produk</h6>
-                    <br>
+                    <h6 class="fw-bold text-botol pt-30 fs-15 mb-30">Pemesanan Produk</h6>
                     <div class="row">
                         <div class="col-1 me-13 fs-13">
                             <img src="{{ url('images/whatsapp-footer.png') }}" alt="" class="w-17">
@@ -63,8 +60,7 @@
             </div>
             <div class="col-md-3">
                 <div class="ps-4 fs-13">
-                    <h6 class="fw-bold text-botol pt-5 fs-15">Produk Botolplastik.id</h6>
-                    <br>
+                    <h6 class="fw-bold text-botol pt-30 fs-15 mb-30">Produk Botolplastik.id</h6>
                     <div class="row">
                         <div class="col-1 me-8">
                             <img src="{{ url('images/instagram.png') }}" class="w-17" alt="">
@@ -79,15 +75,12 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid mt-md-5 mt-3 px-md-0 px-3 pb-2 border-bottom">
-        <div class="row justify-content-between g-lg-0 g-3 mx-0">
-            <div class="col-md-2">
+    <div class="container-fluid mt-2 px-md-1 px-3  pt-2 border-bottom">
+        <div class="row justify-content-between g-lg-0 g-3 mx-0 fs-11">
+            <div class="col-md-9 d-md-flex justify-content-center">
                 <a href="{{ url('home') }}" class="text-decoration-none text-dark">
-                    <img class="w-75" src="{{ url('image/logo.png') }}" alt="botolplastik.id">
+                    <img class="ukuran-logo-bawah ps-1 me-30" src="{{ url('images/logo-botolplastik-bawah.png') }}" alt="botolplastik.id">
                 </a>
-
-            </div>
-            <div class="col-md-7">
                 <p>Botolplastik.id adalah agen distribusi produk botol plastik dengan grade medis berkualitas, melayani pelanggan di Surabaya, Jakarta, Semarang, Bali, Bandung, Yogyakarta, hingga ke seluruh wilayah di Indonesia.</p>
             </div>
             <div class="col-md-3 text-md-end">
@@ -95,9 +88,9 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid mt-md-5 mt-3 px-md-0 px-3 pb-5 border-bottom">
+    <div class="container-fluid mt-3 px-md-1 px-3 pb-5 border-bottom">
         <div class="row justify-content-between g-lg-0 g-3 mx-0">
-            <div class="col-md-12 text-md-end">
+            <div class="col-md-12 text-md-end fs-11">
                 <p>Website design by <a href="https://markdesign.net/" class="text-decoration-none text-dark link-hover "> Mark Design </a>.</p>
             </div>
         </div>
