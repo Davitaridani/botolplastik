@@ -3,7 +3,7 @@
 @include('includes._header')
 <main id="main" class="container-fluid p-0">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
+        <div class="carousel-indicators d-flex justify-content-start">
             <div class="indicator-item d-none d-xl-block">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -14,7 +14,20 @@
 
         <div class="carousel-inner text-white">
             <div class="carousel-item active">
-                <img src="https://marshalledc.org/sites/default/files/banner/mountains.jpg" class="d-block w-100" alt="...">
+                <img src="{{ url('images/gbr-atas.jpg') }}" class="d-block w-100" alt="...">
+                <div class="container card-img-overlay d-flex align-items-center px-0 ms-crs mt-5 pt-5">
+                    <div class="row d-none d-lg-block mt-5 pt-2 mx-0">
+                        <div class="col-6 pe-5">
+                            <h2 class="card-title fw-bold pe-5">Beli Botol Plastik Langsung Dari Pabriknya!</h2>
+                            <p class="card-text mb-0 pe-5 me-4">Kami hadirkan aneka botol plastik dengan mutu dan kualitas grade medis, diproduksi dengan teknologi dan kualitas tinggi serta bersertifikat ISO!</p>
+                            <p class="card-text fw-bold mb-0 px-0">Langsung dari pabrik untuk harga terbaik!</p>
+                            <button class="btn btn-info bg-botol border-0 mt-50 rounded-pill fw-bold px-4 text-white">Lihat Koleksi <i class="fas fa-chevron-right ms-4"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="{{ url('images/gbr-atas.jpg') }}" class="d-block w-100" alt="...">
                 <div class="container card-img-overlay d-flex align-items-center">
                     <div class="row d-none d-lg-block mx-0">
                         <div class="col-6 pe-5">
@@ -27,7 +40,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="https://marshalledc.org/sites/default/files/banner/mountains.jpg" class="d-block w-100" alt="...">
+                <img src="{{ url('images/gbr-atas.jpg') }}" class="d-block w-100" alt="...">
                 <div class="container card-img-overlay d-flex align-items-center">
                     <div class="row d-none d-lg-block mx-0">
                         <div class="col-6 pe-5">
@@ -40,20 +53,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="https://marshalledc.org/sites/default/files/banner/mountains.jpg" class="d-block w-100" alt="...">
-                <div class="container card-img-overlay d-flex align-items-center">
-                    <div class="row d-none d-lg-block mx-0">
-                        <div class="col-6 pe-5">
-                            <h2 class="card-title fw-bold pe-5">Beli Botol Plastik Langsung Dari Pabriknya!</h2>
-                            <p class="card-text mb-0 pe-5 me-4">Kami hadirkan aneka botol plastik dengan mutu dan kualitas grade medis, diproduksi dengan teknologi dan kualitas tinggi serta bersertifikat ISO!</p>
-                            <p class="card-text fw-bold">Langsung dari pabrik untuk harga terbaik!</p>
-                            <button class="btn btn-info bg-botol border-0 rounded-pill fw-bold px-4 my-4 text-white">Lihat Koleksi <i class="fas fa-chevron-right ms-4"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="https://marshalledc.org/sites/default/files/banner/mountains.jpg" class="d-block w-100" alt="...">
+                <img src="{{ url('images/gbr-atas.jpg') }}" class="d-block w-100" alt="...">
                 <div class="container card-img-overlay d-flex align-items-center">
                     <div class="row d-none d-lg-block mx-0">
                         <div class="col-6 pe-5">
