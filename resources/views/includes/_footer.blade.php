@@ -11,7 +11,7 @@
                         <p>PET Bottles</p>
                     </a>
                     <a href="#" class="text-decoration-none text-dark link-hover">
-                        <p>Dringking Cup</p>
+                        <p>Drinking Cup</p>
                     </a>
                     <a href="#" class="text-decoration-none text-dark link-hover">
                         <p>Lids</p>

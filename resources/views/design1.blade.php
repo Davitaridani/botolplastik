@@ -123,7 +123,64 @@
             <h6 class="text-center fw-bold fs-25 py-3 text-botol border-top border-bottom">Best Sellers</h6>
         </div>
         <div class="container-fluid my-5">
-            <div class="row mx-0 row-cols-2 row-cols-lg-4 g-2 g-lg-5">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner px-5">
+                    <div class="carousel-item active">
+                        <div class="row mx-0 row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-5">
+                            @foreach ($produk1 as $items)
+                            <div class="col">
+                                <div class="card bg-white border-0">
+                                    <img src="{{ url($items['image']) }}" class="card-img-top" alt="...">
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title text-botol fw-bold py-24 fs-18">{{ $items["nama"] }}</h6>
+                                        <a href="#" class="btn btn-primary bg-botol-tua fw-bold fs-15">Lihat Produk</a>
+                                    </div>
+                                </div>
+                            </div>
+                            @endforeach
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row mx-0 row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-5">
+                            @foreach ($produk2 as $items)
+                            <div class="col">
+                                <div class="card bg-white border-0">
+                                    <img src="{{ url($items['image']) }}" class="card-img-top" alt="...">
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title text-botol fw-bold py-24 fs-18">{{ $items["nama"] }}</h6>
+                                        <a href="#" class="btn btn-primary bg-botol-tua fw-bold fs-15">Lihat Produk</a>
+                                    </div>
+                                </div>
+                            </div>
+                            @endforeach
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row mx-0 row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-5">
+                            @foreach ($produk1 as $items)
+                            <div class="col">
+                                <div class="card bg-white border-0">
+                                    <img src="{{ url($items['image']) }}" class="card-img-top" alt="...">
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title text-botol fw-bold py-24 fs-18">{{ $items["nama"] }}</h6>
+                                        <a href="#" class="btn btn-primary bg-botol-tua fw-bold fs-15">Lihat Produk</a>
+                                    </div>
+                                </div>
+                            </div>
+                            @endforeach
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev ms-2 mb-5 pb-5 justify-content-start" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon mb-5 bg-secondary rounded-circle" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next me-2 mb-5 pb-5 justify-content-end" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon mb-5 bg-secondary rounded-circle" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- <div class="row mx-0 row-cols-2 row-cols-lg-4 g-2 g-lg-5">
                 @foreach ($produk as $items)
                 <div class="col">
                     <div class="card bg-white border-0">
@@ -135,14 +192,71 @@
                     </div>
                 </div>
                 @endforeach
-            </div>
+            </div> -->
         </div>
 
         <div class="container-fluid px-0">
             <h6 class="text-center fw-bold fs-25 py-3 text-botol border-top border-bottom">New Items</h6>
         </div>
         <div class="container-fluid my-5">
-            <div class="row mx-0 row-cols-2 row-cols-lg-4 g-2 g-lg-5">
+            <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner px-5">
+                    <div class="carousel-item active">
+                        <div class="row mx-0 row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-5">
+                            @foreach ($produk1 as $items)
+                            <div class="col">
+                                <div class="card bg-white border-0">
+                                    <img src="{{ url($items['image']) }}" class="card-img-top" alt="...">
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title text-botol fw-bold py-24 fs-18">{{ $items["nama"] }}</h6>
+                                        <a href="#" class="btn btn-primary bg-botol-tua fw-bold fs-15">Lihat Produk</a>
+                                    </div>
+                                </div>
+                            </div>
+                            @endforeach
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row mx-0 row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-5">
+                            @foreach ($produk2 as $items)
+                            <div class="col">
+                                <div class="card bg-white border-0">
+                                    <img src="{{ url($items['image']) }}" class="card-img-top" alt="...">
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title text-botol fw-bold py-24 fs-18">{{ $items["nama"] }}</h6>
+                                        <a href="#" class="btn btn-primary bg-botol-tua fw-bold fs-15">Lihat Produk</a>
+                                    </div>
+                                </div>
+                            </div>
+                            @endforeach
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row mx-0 row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-5">
+                            @foreach ($produk1 as $items)
+                            <div class="col">
+                                <div class="card bg-white border-0">
+                                    <img src="{{ url($items['image']) }}" class="card-img-top" alt="...">
+                                    <div class="card-body text-center">
+                                        <h6 class="card-title text-botol fw-bold py-24 fs-18">{{ $items["nama"] }}</h6>
+                                        <a href="#" class="btn btn-primary bg-botol-tua fw-bold fs-15">Lihat Produk</a>
+                                    </div>
+                                </div>
+                            </div>
+                            @endforeach
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev ms-2 mb-5 pb-5 justify-content-start" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon mb-5 bg-secondary rounded-circle" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next me-2 mb-5 pb-5 justify-content-end" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon mb-5 bg-secondary rounded-circle" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- <div class="row mx-0 row-cols-2 row-cols-lg-4 g-2 g-lg-5">
                 @foreach ($produk as $items)
                 <div class="col">
                     <div class="card bg-white border-0">
@@ -154,14 +268,14 @@
                     </div>
                 </div>
                 @endforeach
-            </div>
+            </div> -->
         </div>
 
         <div class="container-fluid px-0">
             <h6 class="text-center fw-bold fs-25 py-3 text-botol border-top border-bottom">Lihat Lebih Banyak</h6>
         </div>
-        <div class="container-fluid mt-5">
-            <div class="row mx-0 row-cols-2 row-cols-lg-4 g-2 g-lg-5">
+        <div class="container-fluid px-md-5 mt-5">
+            <div class="row px-md-0 mx-0 row-cols-2 row-cols-lg-4 g-2 g-lg-5">
                 @foreach ($produk as $items)
                 <div class="col">
                     <div class="card bg-white border-0">
@@ -192,7 +306,7 @@
                 <div class="d-md-flex justify-content-center fw-bold container px-4 pt-2 mt-1 fs-15">
                     <p class="border-4 px-3 border-end-custom"><a href="" class="text-decoration-none link-hover-lainnya text-biru-tua">PET Performs</a></p>
                     <p class="border-4 px-3 border-end-custom"><a href="" class="text-decoration-none link-hover-lainnya text-biru-tua">PET Bottles</a></p>
-                    <p class="border-4 px-3 border-end-custom"><a href="" class="text-decoration-none link-hover-lainnya text-biru-tua">Dringking Cup</a></p>
+                    <p class="border-4 px-3 border-end-custom"><a href="" class="text-decoration-none link-hover-lainnya text-biru-tua">Drinking Cup</a></p>
                     <p class="border-4 px-3 border-end-custom"><a href="" class="text-decoration-none link-hover-lainnya text-biru-tua">Lids</a></p>
                     <p class="border-4 px-3"><a href="" class="text-decoration-none text-biru-tua link-hover-lainnya">PP Jars</a></p>
                 </div>
