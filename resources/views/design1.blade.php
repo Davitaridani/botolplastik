@@ -172,11 +172,15 @@
                     </div>
                 </div>
                 <button class="carousel-control-prev ms-2 mb-5 pb-5 justify-content-start" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon mb-5 bg-secondary rounded-circle" aria-hidden="true"></span>
+                    <div class="mb-5 icon-crs rounded-circle d-flex align-items-center p-1 justify-content-center">
+                        <i class="fas fa-chevron-left"></i>
+                    </div>
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next me-2 mb-5 pb-5 justify-content-end" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                    <span class="carousel-control-next-icon mb-5 bg-secondary rounded-circle" aria-hidden="true"></span>
+                    <div class=" mb-5 icon-crs rounded-circle d-flex align-items-center text-center justify-content-center p-1">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
@@ -248,11 +252,15 @@
                     </div>
                 </div>
                 <button class="carousel-control-prev ms-2 mb-5 pb-5 justify-content-start" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon mb-5 bg-secondary rounded-circle" aria-hidden="true"></span>
+                    <div class="mb-5 icon-crs rounded-circle d-flex align-items-center p-1 justify-content-center">
+                        <i class="fas fa-chevron-left"></i>
+                    </div>
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next me-2 mb-5 pb-5 justify-content-end" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
-                    <span class="carousel-control-next-icon mb-5 bg-secondary rounded-circle" aria-hidden="true"></span>
+                    <div class=" mb-5 icon-crs rounded-circle d-flex align-items-center text-center justify-content-center p-1">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>

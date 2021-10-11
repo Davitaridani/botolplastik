@@ -291,3 +291,10 @@ body {
         height: 50px;
     }
 }
+
+.icon-crs {
+    color: #122251;
+    height: 30px;
+    width: 30px;
+    background: #f1f1f1;
+}
