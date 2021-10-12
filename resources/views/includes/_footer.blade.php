@@ -1,5 +1,5 @@
 <section id="footer" class="font-merri fw-light">
-    <div class="container-fluid border-top border-bottom">
+    <div class="container border-top border-bottom">
         <div class="row justify-content-between mx-0">
             <div class="col-md-3 border-end pb-2">
                 <div class="ps-4 fs-13">
@@ -75,7 +75,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid mt-2 px-md-1 px-3  pt-2 border-bottom">
+    <div class="container mt-2 px-md-1 px-3  pt-2 border-bottom">
         <div class="row justify-content-between g-lg-0 g-3 mx-0 fs-11">
             <div class="col-md-8 d-md-flex justify-content-start-center">
                 <a href="{{ url('home#') }}" class="text-decoration-none text-dark">
@@ -88,7 +88,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid mt-3 px-md-1 px-3 pb-5 border-bottom">
+    <div class="container mt-3 px-md-1 px-3 pb-5 border-bottom">
         <div class="row justify-content-between g-lg-0 g-3 mx-0">
             <div class="col-md-12 text-md-end fs-11">
                 <p>Website design by <a href="https://markdesign.net/" class="text-decoration-none text-dark link-hover "> Mark Design </a>.</p>
