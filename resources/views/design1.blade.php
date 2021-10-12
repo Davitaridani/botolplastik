@@ -73,27 +73,27 @@
       <div class="row mx-0 row-cols-2 row-cols-lg-6 g-2 g-lg-5">
         <div class="col text-center border-end fw-bold text-biru-tua pt-5 fs-15">
           <img src="{{ url('images/icon1.png') }}" class="mb-35" alt="">
-          <p>Beverage</p>
+          <a href="" class="text-decoration-none text-biru-tua"><p>Beverage</p></a>
         </div>
         <div class="col text-center border-end fw-bold text-biru-tua pt-5 fs-15">
           <img src="{{ url('images/icon2.png') }}" class="mb-35" alt="">
-          <p>Food</p>
+          <a href="" class="text-decoration-none text-biru-tua"><p>Food</p></a>
         </div>
         <div class="col text-center border-end fw-bold text-biru-tua pt-5 fs-15">
           <img src="{{ url('images/icon3.png') }}" class="mb-35" alt="">
-          <p>Personal Care</p>
+          <a href="" class="text-decoration-none text-biru-tua"><p>Personal Care</p></a>
         </div>
         <div class="col text-center border-end fw-bold text-biru-tua pt-5 fs-15">
           <img src="{{ url('images/icon4.png') }}" class="mb-35" alt="">
-          <p>Cosmetics</p>
+          <a href="" class="text-decoration-none text-biru-tua"><p>Cosmetics</p></a>
         </div>
         <div class="col text-center border-end fw-bold text-biru-tua pt-5 fs-15">
           <img src="{{ url('images/icon5.png') }}" class="mb-35" alt="">
-          <p>Pharmaceutial</p>
+          <a href="" class="text-decoration-none text-biru-tua"><p>Pharmaceutial</p></a>
         </div>
         <div class="col text-center fw-bold text-biru-tua pt-5 fs-15">
           <img src="{{ url('images/icon6.png') }}" class="mb-35" alt="">
-          <p>Chemical</p>
+          <a href="" class="text-decoration-none text-biru-tua"><p>Chemical</p></a>
         </div>
       </div>
     </div>
@@ -227,7 +227,7 @@
               <div class="d-flex align-items-center">
                 <div class="w-75 lh-1">
                   <span class="mb-0 pb-0 text-uppercase fs-11 letter-spacing">Instagram</span>
-                  <a href="#" class="stretched-link fw-bold text-decoration-none text-white fs-14">botolplastik.idn</a>
+                  <a href="https://www.instagram.com/botolplastik.idn/" class="stretched-link fw-bold text-decoration-none text-white fs-14">botolplastik.idn</a>
                 </div>
               </div>
             </div>
