@@ -1,7 +1,7 @@
 @extends('template')
 @section('content')
 @include('includes._header')
-<main id="main" class="container-fluid p-0">
+<main id="main" class="container p-0">
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators d-flex justify-content-start">
       <div class="indicator-item d-none d-xl-block">
@@ -51,7 +51,7 @@
     <div class="container mb-40 mt-150">
       <h6 class="text-center fw-bold my-0">Tentang BotolPlastik.id</h6>
     </div>
-    <div class="container-fluid">
+    <div class="container">
       <h1 class="h1 text-center text-botol fw-bold font-merri mb-40">Unggul dalam harga, kualitas dan design</h1>
       <p class="w-75 text-center px-3 mb-40 mx-auto">Botolplastik.id adalah divisi trading yang menjual aneka produk
         botol plastik dan variasi kelengkapannya, dari korporasi pabrik pabrik plastik unggul di Indonesia, yakni
@@ -69,39 +69,39 @@
       <h6 class="text-center fs-18 text-botol fw-bold">Lihat Produk Sesuai Aplikasi:</h6>
     </div>
 
-    <div class="container-fluid pb-5">
+    <div class="container pb-5">
       <div class="row mx-0 row-cols-2 row-cols-lg-6 g-2 g-lg-5">
         <div class="col text-center border-end fw-bold text-biru-tua pt-5 fs-15">
           <img src="{{ url('images/icon1.png') }}" class="mb-35" alt="">
-          <p>Beverage</p>
+          <a href="" class="text-decoration-none text-biru-tua"><p>Beverage</p></a>
         </div>
         <div class="col text-center border-end fw-bold text-biru-tua pt-5 fs-15">
           <img src="{{ url('images/icon2.png') }}" class="mb-35" alt="">
-          <p>Food</p>
+          <a href="" class="text-decoration-none text-biru-tua"><p>Food</p></a>
         </div>
         <div class="col text-center border-end fw-bold text-biru-tua pt-5 fs-15">
           <img src="{{ url('images/icon3.png') }}" class="mb-35" alt="">
-          <p>Personal Care</p>
+          <a href="" class="text-decoration-none text-biru-tua"><p>Personal Care</p></a>
         </div>
         <div class="col text-center border-end fw-bold text-biru-tua pt-5 fs-15">
           <img src="{{ url('images/icon4.png') }}" class="mb-35" alt="">
-          <p>Cosmetics</p>
+          <a href="" class="text-decoration-none text-biru-tua"><p>Cosmetics</p></a>
         </div>
         <div class="col text-center border-end fw-bold text-biru-tua pt-5 fs-15">
           <img src="{{ url('images/icon5.png') }}" class="mb-35" alt="">
-          <p>Pharmaceutial</p>
+          <a href="" class="text-decoration-none text-biru-tua"><p>Pharmaceutial</p></a>
         </div>
         <div class="col text-center fw-bold text-biru-tua pt-5 fs-15">
           <img src="{{ url('images/icon6.png') }}" class="mb-35" alt="">
-          <p>Chemical</p>
+          <a href="" class="text-decoration-none text-biru-tua"><p>Chemical</p></a>
         </div>
       </div>
     </div>
 
-    <div class="container-fluid px-0">
+    <div class="container px-0">
       <h6 class="text-center fw-bold fs-25 py-3 text-botol border-top border-bottom">Best Sellers</h6>
     </div>
-    <div class="container-fluid my-5">
+    <div class="container my-5">
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner px-5">
           @foreach ($produk as $key => $value)
@@ -139,10 +139,10 @@
       </div>
     </div>
 
-    <div class="container-fluid px-0">
+    <div class="container px-0">
       <h6 class="text-center fw-bold fs-25 py-3 text-botol border-top border-bottom">New Items</h6>
     </div>
-    <div class="container-fluid my-5">
+    <div class="container my-5">
       <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner px-5">
           @foreach ($produk as $key => $value)
@@ -180,10 +180,10 @@
       </div>
     </div>
 
-    <div class="container-fluid px-0">
+    <div class="container px-0">
       <h6 class="text-center fw-bold fs-25 py-3 text-botol border-top border-bottom">Lihat Lebih Banyak</h6>
     </div>
-    <div class="container-fluid px-md-5 mt-5">
+    <div class="container px-md-5 mt-5">
       <div class="row px-md-0 mx-0 row-cols-2 row-cols-lg-4 g-2 g-lg-5">
         @foreach ($produk as $key => $value)
         @foreach ($value as $items)
@@ -200,7 +200,7 @@
         @endforeach
       </div>
     </div>
-    <div class="container-fluid px-0 py-5">
+    <div class="container px-0 py-5">
       <h6 class="text-center pb-4 text-botol px-5 fw-bold">Lihat Lebih Lengkap Sesuai Kategori Koleksi:</h6>
       <div class="border-top border-bottom py-3">
         <div class="d-md-flex justify-content-center fw-bold container px-4 pt-2 mt-1 fs-15">
@@ -213,7 +213,7 @@
       </div>
     </div>
 
-    <div class="container-fluid px-0">
+    <div class="container px-0">
       <div class="card bg-dark text-white">
         <img src="{{ url('images/gbr-bawah.jpg') }}" class="card-img" alt="...">
         <div class="card-img-overlay d-flex bg-gradasi-botol ms-3 ps-5 w-50 align-items-center">
@@ -227,7 +227,7 @@
               <div class="d-flex align-items-center">
                 <div class="w-75 lh-1">
                   <span class="mb-0 pb-0 text-uppercase fs-11 letter-spacing">Instagram</span>
-                  <a href="#" class="stretched-link fw-bold text-decoration-none text-white fs-14">botolplastik.idn</a>
+                  <a href="https://www.instagram.com/botolplastik.idn/" class="stretched-link fw-bold text-decoration-none text-white fs-14">botolplastik.idn</a>
                 </div>
               </div>
             </div>
@@ -242,8 +242,8 @@
     <div class="container pb-4 mb-1">
       <h6 class="text-botol text-center fw-bold mt-60">Pelanggan Kami :</h6>
     </div>
-    <div class="container-fluid py-4 border-top">
-      <div class="container-fluid">
+    <div class="container py-4 border-top">
+      <div class="container">
         <div class="row g-2 g-lg-3 mx-0 justify-content-between">
           <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
             <a href=""><img src="{{ url('images/logo_1.jpg') }}" width="100%" alt=""></a>
