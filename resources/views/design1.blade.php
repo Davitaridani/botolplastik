@@ -1,4 +1,9 @@
 @extends('template')
+
+@push('style')
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+<!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+@endpush
 @section('content')
 @include('includes._header')
 <main id="main" class="container p-0">
@@ -17,12 +22,11 @@
     </div>
 
     <div class="carousel-inner text-white">
-      @for ($i = 0; $i < 4; $i++)
-       <div class="carousel-item {{ $i == 0 ? 'active' : '' }}">
+      @for ($i = 0; $i < 4; $i++) <div class="carousel-item {{ $i == 0 ? 'active' : '' }}">
         <img src="{{ url('images/gbr-atas.jpg') }}" class="d-block w-100" alt="...">
-        <div class="container card-img-overlay d-flex align-items-center px-0 ms-crs mt-5 pt-5">
-          <div class="row d-none d-lg-block mt-5 pt-2 mx-0">
-            <div class="col-6 pe-5">
+        <div class="container card-img-overlay d-flex align-items-center px-0 ms-crs mt-5 pt-2 pt-lg-5">
+          <div class="row d-none d-md-block mt-1 mt-sm-3 pt-2 mx-0">
+            <div class="col-md-8 col-lg-6 pe-5">
               <h2 class="card-title fw-bold pe-5">Beli Botol Plastik Langsung Dari Pabriknya!</h2>
               <p class="card-text mb-0 pe-5 me-4">Kami hadirkan aneka botol plastik dengan mutu dan kualitas grade
                 medis, diproduksi dengan teknologi dan kualitas tinggi serta bersertifikat ISO!</p>
@@ -69,31 +73,43 @@
       <h6 class="text-center fs-18 text-botol fw-bold">Lihat Produk Sesuai Aplikasi:</h6>
     </div>
 
-    <div class="container pb-5">
-      <div class="row mx-0 row-cols-2 row-cols-lg-6 g-2 g-lg-5">
+    <div class="container-fluid pb-5">
+      <div class="row mx-0 row-cols-2 row-cols-md-3 row-cols-lg-6 g-2 g-lg-5" id="produkAplikasi">
         <div class="col text-center border-end fw-bold text-biru-tua pt-5 fs-15">
           <img src="{{ url('images/icon1.png') }}" class="mb-35" alt="">
-          <a href="" class="text-decoration-none text-biru-tua"><p>Beverage</p></a>
+          <a href="" class="text-decoration-none text-biru-tua">
+            <p>Beverage</p>
+          </a>
         </div>
         <div class="col text-center border-end fw-bold text-biru-tua pt-5 fs-15">
           <img src="{{ url('images/icon2.png') }}" class="mb-35" alt="">
-          <a href="" class="text-decoration-none text-biru-tua"><p>Food</p></a>
+          <a href="" class="text-decoration-none text-biru-tua">
+            <p>Food</p>
+          </a>
         </div>
         <div class="col text-center border-end fw-bold text-biru-tua pt-5 fs-15">
           <img src="{{ url('images/icon3.png') }}" class="mb-35" alt="">
-          <a href="" class="text-decoration-none text-biru-tua"><p>Personal Care</p></a>
+          <a href="" class="text-decoration-none text-biru-tua">
+            <p>Personal Care</p>
+          </a>
         </div>
         <div class="col text-center border-end fw-bold text-biru-tua pt-5 fs-15">
           <img src="{{ url('images/icon4.png') }}" class="mb-35" alt="">
-          <a href="" class="text-decoration-none text-biru-tua"><p>Cosmetics</p></a>
+          <a href="" class="text-decoration-none text-biru-tua">
+            <p>Cosmetics</p>
+          </a>
         </div>
         <div class="col text-center border-end fw-bold text-biru-tua pt-5 fs-15">
           <img src="{{ url('images/icon5.png') }}" class="mb-35" alt="">
-          <a href="" class="text-decoration-none text-biru-tua"><p>Pharmaceutial</p></a>
+          <a href="" class="text-decoration-none text-biru-tua">
+            <p>Pharmaceutial</p>
+          </a>
         </div>
         <div class="col text-center fw-bold text-biru-tua pt-5 fs-15">
           <img src="{{ url('images/icon6.png') }}" class="mb-35" alt="">
-          <a href="" class="text-decoration-none text-biru-tua"><p>Chemical</p></a>
+          <a href="" class="text-decoration-none text-biru-tua">
+            <p>Chemical</p>
+          </a>
         </div>
       </div>
     </div>
@@ -101,94 +117,78 @@
     <div class="container px-0">
       <h6 class="text-center fw-bold fs-25 py-3 text-botol border-top border-bottom">Best Sellers</h6>
     </div>
-    <div class="container my-5">
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner px-5">
-          @foreach ($produk as $key => $value)
-          <div class="carousel-item {{ $key == 0 ? 'active' : '' }}">
-            <div class="row mx-0 row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-5">
-              @foreach ($value as $items)
-              <div class="col">
-                <div class="card bg-white border-0">
-                  <img src="{{ url($items['image']) }}" class="card-img-top" alt="...">
-                  <div class="card-body text-center">
-                    <h6 class="card-title text-botol fw-bold py-24 fs-18">{{ $items["nama"] }}</h6>
-                    <a href="#" class="btn btn-primary bg-botol-tua fw-bold fs-15">Lihat Produk</a>
-                  </div>
-                </div>
+    <section class="d-flex align-items-center">
+      <span class="px-2 mb-5">
+        <button class="btn btn-sm btn-secondary rounded-circle px-2 py-2 prev-btn" type="button">
+          <span class="carousel-control-prev-icon align-middle" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+      </span>
+      <div class="px-md-2 my-5">
+        <div class="product-carousel row mx-0 row-cols-2 row-cols-md-4 g-2 g-lg-5">
+          @foreach ($produk as $key => $items)
+          <div class="col">
+            <div class="card bg-white border-0">
+              <img src="{{ url($items['image']) }}" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h6 class="card-title text-botol fw-bold py-24 fs-18">{{ $items["nama"] }}</h6>
+                <a href="#" class="btn btn-primary bg-botol-tua fw-bold fs-15">Lihat Produk</a>
               </div>
-              @endforeach
             </div>
           </div>
           @endforeach
         </div>
-        <button class="carousel-control-prev ms-2 mb-5 pb-5 justify-content-start" type="button"
-          data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <div class="mb-5 icon-crs rounded-circle d-flex align-items-center p-1 justify-content-center">
-            <i class="fas fa-chevron-left"></i>
-          </div>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next me-2 mb-5 pb-5 justify-content-end" type="button"
-          data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <div class=" mb-5 icon-crs rounded-circle d-flex align-items-center text-center justify-content-center p-1">
-            <i class="fas fa-chevron-right"></i>
-          </div>
+      </div>
+      <span class="px-2 mb-5">
+        <button class="btn btn-sm btn-secondary rounded-circle px-2 py-2 next-btn" type="button">
+          <span class="carousel-control-next-icon align-middle" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
+      </span>
+    </section>
     </div>
 
     <div class="container px-0">
       <h6 class="text-center fw-bold fs-25 py-3 text-botol border-top border-bottom">New Items</h6>
     </div>
-    <div class="container my-5">
-      <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner px-5">
-          @foreach ($produk as $key => $value)
-          <div class="carousel-item {{ $key == 0 ? 'active' : '' }}">
-            <div class="row mx-0 row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 g-lg-5">
-              @foreach ($value as $items)
-              <div class="col">
-                <div class="card bg-white border-0">
-                  <img src="{{ url($items['image']) }}" class="card-img-top" alt="...">
-                  <div class="card-body text-center">
-                    <h6 class="card-title text-botol fw-bold py-24 fs-18">{{ $items["nama"] }}</h6>
-                    <a href="#" class="btn btn-primary bg-botol-tua fw-bold fs-15">Lihat Produk</a>
-                  </div>
-                </div>
+    <section class="d-flex align-items-center">
+      <span class="px-2 mb-5">
+        <button class="btn btn-sm btn-secondary rounded-circle px-2 py-2 prev-btn" type="button">
+          <span class="carousel-control-prev-icon align-middle" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+      </span>
+      <div class="px-md-2 my-5">
+        <div class="product-carousel row mx-0 row-cols-2 row-cols-md-4 g-2 g-lg-5">
+          @foreach ($produk as $key => $items)
+          <div class="col">
+            <div class="card bg-white border-0">
+              <img src="{{ url($items['image']) }}" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h6 class="card-title text-botol fw-bold py-24 fs-18">{{ $items["nama"] }}</h6>
+                <a href="#" class="btn btn-primary bg-botol-tua fw-bold fs-15">Lihat Produk</a>
               </div>
-              @endforeach
             </div>
           </div>
           @endforeach
         </div>
-        <button class="carousel-control-prev ms-2 mb-5 pb-5 justify-content-start" type="button"
-          data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
-          <div class="mb-5 icon-crs rounded-circle d-flex align-items-center p-1 justify-content-center">
-            <i class="fas fa-chevron-left"></i>
-          </div>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next me-2 mb-5 pb-5 justify-content-end" type="button"
-          data-bs-target="#carouselExampleControls2" data-bs-slide="next">
-          <div class=" mb-5 icon-crs rounded-circle d-flex align-items-center text-center justify-content-center p-1">
-            <i class="fas fa-chevron-right"></i>
-          </div>
+      </div>
+      <span class="px-2 mb-5">
+        <button class="btn btn-sm btn-secondary rounded-circle px-2 py-2 next-btn" type="button">
+          <span class="carousel-control-next-icon align-middle" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
-    </div>
+      </span>
+    </section>
 
     <div class="container px-0">
       <h6 class="text-center fw-bold fs-25 py-3 text-botol border-top border-bottom">Lihat Lebih Banyak</h6>
     </div>
-    <div class="container px-md-5 mt-5">
-      <div class="row px-md-0 mx-0 row-cols-2 row-cols-lg-4 g-2 g-lg-5">
-        @foreach ($produk as $key => $value)
-        @foreach ($value as $items)
+    <div class="px-md-5 mt-5">
+      <div class="row px-md-3 mx-1 row-cols-2 row-cols-lg-4 g-2 g-lg-5 ">
+        @foreach ($produk as $key => $items)
         <div class="col">
-          <div class="card bg-white border-0">
+          <div class="card bg-white border-0 mb-4 mb-md-0">
             <img src="{{ url($items['image']) }}" class="card-img-top" alt="...">
             <div class="card-body text-center">
               <h6 class="card-title text-botol fw-bold py-24 fs-18">{{ $items["nama"] }}</h6>
@@ -197,37 +197,37 @@
           </div>
         </div>
         @endforeach
-        @endforeach
       </div>
     </div>
     <div class="container px-0 py-5">
       <h6 class="text-center pb-4 text-botol px-5 fw-bold">Lihat Lebih Lengkap Sesuai Kategori Koleksi:</h6>
       <div class="border-top border-bottom py-3">
-        <div class="d-md-flex justify-content-center fw-bold container px-4 pt-2 mt-1 fs-15">
+        <div class="d-md-flex justify-content-center text-center fw-bold container px-4 pt-2 mt-1 fs-15">
           @foreach ($kategori as $key => $item)
           <p class="border-4 px-3 {{ $item == end($kategori) ? '' : 'border-end-custom'  }}"><a
-              href="{{ url($item['link'], []) }}"
+              href="{{ $item['link'] }}"
               class="text-decoration-none link-hover-lainnya text-biru-tua">{{ $item['name'] }}</a></p>
           @endforeach
         </div>
       </div>
     </div>
 
-    <div class="container px-0">
-      <div class="card bg-dark text-white">
-        <img src="{{ url('images/gbr-bawah.jpg') }}" class="card-img" alt="...">
-        <div class="card-img-overlay d-flex bg-gradasi-botol ms-3 ps-5 w-50 align-items-center">
-          <div class="font-merri py-5 d-none d-lg-block">
+    <div class="container-fluid px-0">
+      <div class="card bg-dark text-white border-0 rounded-0">
+        <img src="{{ url('images/gbr-bawah.jpg') }}" class="card-img card-bg-follow-ig" alt="...">
+        <div class="card-img-overlay d-flex bg-gradasi-botol ps-5 w-50 align-items-center">
+          <div class="font-merri mx-1 mx-md-5 py-5 ">
             <h1 class="card-title fs-45 my-0 fw-600">Follow Kami</h1>
             <h1 class="card-title fs-45 mb-3 fw-normal">di Instagram</h1>
-            <p class="card-text fs-13 mb-0 pb-0 w-normal w-60">Dapatkan informasi dan update seputar produk Botol
+            <p class="card-text fs-13 mb-0 pb-0 w-normal">Dapatkan informasi dan update seputar produk Botol
               Plastik serta aneka informasi menarik.</p>
             <div class="d-flex position-relative pt-33">
               <img src="{{ url('images/instagram-putih.png') }}" alt="" class="me-15">
               <div class="d-flex align-items-center">
                 <div class="w-75 lh-1">
                   <span class="mb-0 pb-0 text-uppercase fs-11 letter-spacing">Instagram</span>
-                  <a href="https://www.instagram.com/botolplastik.idn/" class="stretched-link fw-bold text-decoration-none text-white fs-14">botolplastik.idn</a>
+                  <a href="https://www.instagram.com/botolplastik.idn/"
+                    class="stretched-link fw-bold text-decoration-none text-white fs-14">botolplastik.idn</a>
                 </div>
               </div>
             </div>
@@ -245,33 +245,11 @@
     <div class="container py-4 border-top">
       <div class="container">
         <div class="row g-2 g-lg-3 mx-0 justify-content-between">
+          @foreach ($customer as $item)
           <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
-            <a href=""><img src="{{ url('images/logo_1.jpg') }}" width="100%" alt=""></a>
+            <a href="{{ $item['link'] }}"><img src="{{ url($item['img']) }}" width="100%" alt=""></a>
           </div>
-          <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
-            <a href=""><img src="{{ url('images/logo_2.jpg') }}" width="100%" alt=""></a>
-          </div>
-          <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
-            <a href=""><img src="{{ url('images/logo_3.jpg') }}" width="100%" alt=""></a>
-          </div>
-          <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
-            <a href=""><img src="{{ url('images/logo_4.jpg') }}" width="100%" alt=""></a>
-          </div>
-          <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
-            <a href=""><img src="{{ url('images/logo_5.jpg') }}" width="100%" alt=""></a>
-          </div>
-          <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
-            <a href=""><img src="{{ url('images/logo_6.jpg') }}" width="100%" alt=""></a>
-          </div>
-          <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
-            <a href=""><img src="{{ url('images/logo_7.jpg') }}" width="100%" alt=""></a>
-          </div>
-          <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
-            <a href=""><img src="{{ url('images/logo_8.jpg') }}" width="100%" alt=""></a>
-          </div>
-          <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
-            <a href=""><img src="{{ url('images/logo_9.jpg') }}" width="100%" alt=""></a>
-          </div>
+          @endforeach
         </div>
       </div>
     </div>
@@ -279,3 +257,9 @@
 </main>
 @include('includes._footer')
 @endsection
+
+@push('script')
+<script src="js/tiny-slider.js"></script>
+<script src="js/product-carousel.min.js"></script>
+<!-- NOTE: prior to v2.2.1 tiny-slider.js need to be in <body> -->
+@endpush
