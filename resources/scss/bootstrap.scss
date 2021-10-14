@@ -1,0 +1,25 @@
+$primary   : #2e53a3;
+$secondary : #6c757d;
+$success   : #009852;
+$info      : #00D7D6;
+$warning   : #ffc107;
+$danger    : #d8060b;
+$light     : #f8f9fa;
+$dark      : #212529;
+
+$theme-colors: ("primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark);
+
+$position-values: (0: 0,
+  25: 25%,
+  50: 50%,
+  75: 75%,
+  100: 100%);
+
+@import "../../vendor/twbs/bootstrap/scss/bootstrap.scss";
