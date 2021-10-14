@@ -17,6 +17,7 @@ module.exports = {
         "port": 3001
     },
     "files": [
+      "app/",
       "resources/",
       "public/",
       "routes/"

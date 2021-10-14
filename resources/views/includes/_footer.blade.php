@@ -1,29 +1,19 @@
-<section id="footer" class="font-merri fw-light">
+<footer class="font-merri fw-light">
     <div class="container border-top border-bottom">
-        <div class="row justify-content-between mx-0">
-            <div class="col-md-3 border-end pb-2">
-                <div class="ps-4 fs-13">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 justify-content-between mx-0">
+            <div class="col border-end border-footer-end pb-2">
+                <div class="ps-1 ps-md-4 fs-13">
                     <h6 class="fw-bold text-botol pt-30 fs-15 mb-30">Produk Botolplastik.id</h6>
-                    <a href="#" class="text-decoration-none text-dark link-hover">
-                        <p>PET Preforms</p>
-                    </a>
-                    <a href="#" class="text-decoration-none text-dark link-hover">
-                        <p>PET Bottles</p>
-                    </a>
-                    <a href="#" class="text-decoration-none text-dark link-hover">
-                        <p>Drinking Cup</p>
-                    </a>
-                    <a href="#" class="text-decoration-none text-dark link-hover">
-                        <p>Lids</p>
-                    </a>
-                    <a href="#" class="text-decoration-none text-dark link-hover">
-                        <p>PP Jars</p>
-                    </a>
+                    @foreach ($kategori as $item)
+                      <a href="{{ $item['link'] }}" class="text-decoration-none text-dark link-hover">
+                        <p>{{ $item['name'] }}</p>
+                      </a> 
+                    @endforeach
                 </div>
             </div>
-            <div class="col-md-3 border-end">
-                <div class="ps-4 fs-13">
-                    <h6 class="fw-bold text-botol pt-30 fs-15 mb-30">Browser Botolplastik.id</h6>
+            <div class="col border-end">
+                <div class="ps-1 ps-md-4 fs-13">
+                    <h6 class="fw-bold text-botol pt-30 fs-15 mb-30">Browse Botolplastik.id</h6>
                     <a href="#" class="text-decoration-none text-dark link-hover">
                         <p>Tentang Kami</p>
                     </a>
@@ -32,12 +22,12 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-3 border-end">
-                <div class="ps-4 fs-13">
+            <div class="col border-end">
+                <div class="ps-1 ps-md-4 fs-13">
                     <h6 class="fw-bold text-botol pt-30 fs-15 mb-30">Pemesanan Produk</h6>
                     <div class="row">
-                        <div class="col-1 me-13 fs-13">
-                            <img src="{{ url('images/whatsapp-footer.png') }}" alt="" class="w-17">
+                        <div class="col-auto me-1 fs-13">
+                            <span class="iconify" data-icon="mdi:whatsapp" data-width="18"></span>
                         </div>
                         <div class="col-10 fs-13">
                             <a href="http://wa.me/6282817040048" class="text-decoration-none text-dark link-hover">
@@ -47,8 +37,8 @@
 
                     </div>
                     <div class="row">
-                        <div class="col-1 fs-13  me-13">
-                            <img src="{{ url('images/home.png') }}" class="w-17" alt="">
+                        <div class="col-auto fs-13  me-1">
+                            <span class="iconify" data-icon="mdi:home" data-width="18"></span>
                         </div>
                         <div class="col-10 fs-13">
                             <p><strong>Marketing Office</strong></p>
@@ -58,12 +48,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="ps-4 fs-13">
+            <div class="col">
+                <div class="ps-1 ps-md-4 fs-13">
                     <h6 class="fw-bold text-botol pt-30 fs-15 mb-30">Produk Botolplastik.id</h6>
                     <div class="row">
-                        <div class="col-1 me-8">
-                            <img src="{{ url('images/instagram.png') }}" class="w-17" alt="">
+                        <div class="col-auto me-1">
+                            <span class="iconify" data-icon="mdi:instagram" data-width="18"></span>
                         </div>
                         <div class="col-10">
                             <a href="https://www.instagram.com/botolplastik.idn/" class="text-decoration-none text-dark link-hover">
@@ -95,4 +85,8 @@
             </div>
         </div>
     </div>
-</section>
+</footer>
+
+@push('script')
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+@endpush

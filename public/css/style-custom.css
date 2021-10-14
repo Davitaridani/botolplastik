@@ -51,16 +51,6 @@ body {
     border-radius: 50%;
 }
 
-@media screen and (max-width: 576px) {
-    .carousel-indicators {
-        top: 80%;
-        right: 0%;
-        left: 0%;
-        margin-right: auto !important;
-        margin-left: auto !important;
-    }
-}
-
 .fs-12 {
     font-size: 12px;
     ;
@@ -291,8 +281,30 @@ body {
 }
 
 @media screen and (max-width: 576px) {
+  .carousel-indicators {
+        top: 80%;
+        right: 0%;
+        left: 0%;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
     .brand-md-cs {
         height: 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+  .border-end-custom {
+      border-right: transparent;
+    }
+}
+
+@media screen and (max-width: 991px) {
+  #produkAplikasi .border-end {
+      border-right: 1px solid transparent !important;
+    }
+  footer .border-end {
+      border-right: 1px solid transparent !important;
     }
 }
 
@@ -301,4 +313,9 @@ body {
     height: 30px;
     width: 30px;
     background: #f1f1f1;
+}
+
+.card-bg-follow-ig {
+  height: 415px;
+  object-fit: cover;
 }
