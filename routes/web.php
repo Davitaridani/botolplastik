@@ -18,4 +18,7 @@ $router->get('/', function () use ($router) {
 });
 
 $router->get('home', 'HomeController@home');
+$router->get('about', 'AboutController@index');
+$router->get('products', 'ProductController@index');
+$router->get('contact', 'ContactController@index');
 
