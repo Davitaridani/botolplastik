@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;500;600;700&display=swap");
+
+$blue-light: #0098da;
+$blue-dark: #122251;
+
+// Mixin untuk media query
+@mixin responsive($breakpoint) {
+  @if $breakpoint == sm {
+    @media screen and (max-width: 576px) {
+      @content;
+    }
+  } @else if $breakpoint == md {
+    @media screen and (max-width: 767px) {
+      @content;
+    }
+  } @else if $breakpoint == lg {
+    @media screen and (max-width: 991px) {
+      @content;
+    }
+  } @else if $breakpoint == xl {
+    @media screen and (max-width: 1200px) {
+      @content;
+    }
+  } @else if $breakpoint == xxl {
+    @media screen and (max-width: 1400px) {
+      @content;
+    }
+  }
+}
+
+body {
+  font-family: "Encode Sans", sans-serif;
+}
+
+.font-merri {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.container {
+  max-width: 1442px !important;
+  @include responsive(xxl) {
+    max-width: 1520px;
+  }
+}
+
+.bg-blue {
+  &-light {
+    background-color: $blue-light;
+  }
+  &-gradient {
+    background: rgb(48, 83, 165);
+    background: linear-gradient(90deg, rgba(48, 83, 165, 1) 40%, rgba(255, 255, 255, 0) 100%);
+  }
+  &-banner {
+    background-image: url('../images/tentang/bg-banner.svg');
+    background-size: auto 100%;
+    background-repeat: repeat-x;
+  }
+}
+
+.text-blue-dark {
+  color: $blue-dark;
+}
+
+.border-end-blue-dark {
+  border-right: solid;
+  border-color: $blue-dark;
+  @include responsive(md) {
+    border-right: transparent;
+  }
+}
+
+.mx-105 {
+  margin: 0 105px;
+}
+
+.carousel-indicators {
+  margin-left: 111px;
+  margin-bottom: 80px;
+
+  & > .indicator-item {
+    & > .active {
+      background-color: white;
+    }
+
+    & > button {
+      background-color: $blue-light;
+      margin: 0 10px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+    }
+  }
+
+  @include responsive(sm) {
+    top: 80%;
+    right: 0%;
+    left: 0%;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+}
+
+.letter-spacing-2 {
+  letter-spacing: 2px;
+}
+
+.nav-item {
+  & > a {
+    color: $blue-dark !important;
+    &:hover {
+      color: #70287e !important;
+    }
+  }
+}
+
+.link-hover:hover {
+  color: #2e53a3 !important;
+}
+
+// Keyword each untuk menghasilkan class dari sekumpulan array
+$mb: 30, 35, 40, 60, 75, 80, 100, 120, 170;
+@each $size in $mb {
+  .mb-#{$size} {
+    margin-bottom: #{$size}px;
+  }
+}
+
+$mt: 50, 60, 150;
+@each $size in $mt {
+  .mt-#{$size} {
+    margin-top: #{$size}px;
+  }
+}
+
+$me: 8, 13, 15, 30;
+@each $size in $me {
+  .me-#{$size} {
+    margin-right: #{$size}px;
+  }
+}
+
+$py: 20, 24;
+@each $size in $py {
+  .py-#{$size} {
+    padding: #{$size}px 0;
+  }
+}
+
+$pt: 30, 33;
+@each $size in $pt {
+  .pt-#{$size} {
+    padding-top: #{$size}px;
+  }
+}
+
+// Font-size mulai 9px hingga 30px
+@for $i from 9 through 30 {
+  .fs-#{$i} {
+    font-size: #{$i}px;
+  }
+}
+
+.fs-45 {
+  font-size: 45px;
+}
+
+.logo-footer {
+  height: 35px;
+}
+
+.brand-md-cs {
+  height: 65px;
+}
+
+.icon-crs {
+  color: $blue-dark;
+  height: 30px;
+  width: 30px;
+  background: #f1f1f1;
+}
+
+.card-bg-follow-ig {
+  height: 415px;
+  object-fit: cover;
+}
+
+#produkAplikasi .border-end {
+  @include responsive(lg) {
+    border-right: 1px solid transparent !important;
+  }
+}
+
+footer .border-end {
+  @include responsive(lg) {
+    border-right: 1px solid transparent !important;
+  }
+}
+
+.banner-placeholder {
+  min-height: 613px;
+
+  & > img {
+    object-fit: cover;
+  }
+}
+
+.ic-keunggulan {
+  height: 77px;
+}
+
+.card-keunggulan {
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(244,247,247,1) 100%);
+}
+
+.sticky-below-nav {
+  position: sticky;
+  top: 121px;
+  z-index: 1;
+}
+
