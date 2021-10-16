@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Beverage",
+    "img": "images/icon1.png",
+    "link": ""
+  },
+  {
+    "name": "Food",
+    "img": "images/icon2.png",
+    "link": ""
+  },
+  {
+    "name": "Personal Care",
+    "img": "images/icon3.png",
+    "link": ""
+  },
+  {
+    "name": "Cosmetics",
+    "img": "images/icon4.png",
+    "link": ""
+  },
+  {
+    "name": "Pharmaceutical",
+    "img": "images/icon5.png",
+    "link": ""
+  },
+  {
+    "name": "Chemical",
+    "img": "images/icon6.png",
+    "link": ""
+  }
+]
