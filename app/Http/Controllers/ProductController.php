@@ -17,4 +17,14 @@ class ProductController extends Controller
       'kategori' => $loader->loadData('../resources/data/categorydata.json')
     ]);
   }
+
+  public function details(LoadDataController $loader)
+  {
+    return view('details', [
+      'title' => 'Detail Produk',
+      'produk' => $loader->loadData('../resources/data/bottledata.json'),
+      'kategori' => $loader->loadData('../resources/data/categorydata.json'),
+      'customer' => $loader->loadData('../resources/data/customerdata.json')
+    ]);
+  }
 }

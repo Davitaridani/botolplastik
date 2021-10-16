@@ -29,30 +29,29 @@
   </div>
 </section>
 <main class="container d-flex flex-column">
-  <section
-    class="d-flex justify-content-center text-center fw-bold container px-4 fs-15 mb-30 sticky-below-nav bg-white">
-    <p class="border-3 px-3 border-end-blue-dark"><a href="#"
-        class="text-decoration-none link-hover-lainnya text-blue-dark">All Products</a></p>
+  <section class="d-flex justify-content-center text-center fw-bold container px-4 fs-15 mb-30 sticky-below-nav bg-white">
+    <p class="border-3 px-3 border-end-blue-dark"><a href="#" class="text-decoration-none link-hover-lainnya text-blue-dark">All Products</a></p>
     @foreach ($kategori as $key => $item)
-    <p class="border-3 px-3 {{ $item == end($kategori) ? '' : 'border-end-blue-dark'  }}"><a href="{{ $item['link'] }}"
-        class="text-decoration-none link-hover text-blue-dark">{{ $item['name'] }}</a></p>
+    <p class="border-3 px-3 {{ $item == end($kategori) ? '' : 'border-end-blue-dark'  }}">
+      <a href="{{ $item['link'] }}" class="text-decoration-none link-hover text-blue-dark">{{ $item['name'] }}</a>
+    </p>
     @endforeach
   </section>
-  <section class="border-top border-bottom row align-items-center mb-75">
+  <section class="border-top border-bottom row align-items-center mb-75 py-2">
     <span class="col-auto">
-      <p class="fs-13 mb-0 text-blue-dark">Filter berdasar:</p>
+      <p class="fs-13 fw-medium mb-0 text-blue-dark">Filter berdasar:</p>
     </span>
     <span class="col-auto">
-      <p class="fs-13 mb-0 text-blue-dark">Aplikasi</p>
+      <p class="fs-13 fw-medium mb-0 text-blue-dark">Aplikasi</p>
     </span>
-    <span class="col-auto py-2">
+    <span class="col-auto">
       <select name="filter-application" id="filter-select" class="form-select">
         @foreach ($aplikasi as $item)
         <option value="{{ $item['name'] }}">{{ $item['name'] }}</option>
         @endforeach
       </select>
     </span>
-    <span class="col-auto fs-13 hstack">
+    <span class="col-auto fs-13 fw-medium hstack">
       <div class="border-2 border-end-blue-dark px-3">
         <a href="#" class="text-decoration-none text-blue-dark link-hover">Terbaru</a>
       </div>
@@ -63,7 +62,7 @@
         <a href="#" class="text-decoration-none text-blue-dark link-hover">Paling Laris</a>
       </div>
     </span>
-    <span class="col fs-13 d-flex justify-content-end">
+    <span class="col fs-13 fw-medium d-flex justify-content-end">
       <p class="mb-0 float-right">Menampilkan {{ count($produk) }} produk</p>
     </span>
   </section>
