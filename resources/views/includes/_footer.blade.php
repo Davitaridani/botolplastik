@@ -3,7 +3,7 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 justify-content-between mx-0">
             <div class="col border-end border-footer-end pb-2">
                 <div class="ps-1 ps-md-4 fs-13">
-                    <h6 class="fw-bold text-botol pt-30 fs-15 mb-30">Produk Botolplastik.id</h6>
+                    <h6 class="fw-bold text-primary pt-30 fs-15 mb-30">Produk Botolplastik.id</h6>
                     @foreach ($kategori as $item)
                       <a href="{{ $item['link'] }}" class="text-decoration-none text-dark link-hover">
                         <p>{{ $item['name'] }}</p>
@@ -13,7 +13,7 @@
             </div>
             <div class="col border-end">
                 <div class="ps-1 ps-md-4 fs-13">
-                    <h6 class="fw-bold text-botol pt-30 fs-15 mb-30">Browse Botolplastik.id</h6>
+                    <h6 class="fw-bold text-primary pt-30 fs-15 mb-30">Browse Botolplastik.id</h6>
                     <a href="#" class="text-decoration-none text-dark link-hover">
                         <p>Tentang Kami</p>
                     </a>
@@ -24,7 +24,7 @@
             </div>
             <div class="col border-end">
                 <div class="ps-1 ps-md-4 fs-13">
-                    <h6 class="fw-bold text-botol pt-30 fs-15 mb-30">Pemesanan Produk</h6>
+                    <h6 class="fw-bold text-primary pt-30 fs-15 mb-30">Pemesanan Produk</h6>
                     <div class="row">
                         <div class="col-auto me-1 fs-13">
                             <span class="iconify" data-icon="mdi:whatsapp" data-width="18"></span>
@@ -50,7 +50,7 @@
             </div>
             <div class="col">
                 <div class="ps-1 ps-md-4 fs-13">
-                    <h6 class="fw-bold text-botol pt-30 fs-15 mb-30">Produk Botolplastik.id</h6>
+                    <h6 class="fw-bold text-primary pt-30 fs-15 mb-30">Produk Botolplastik.id</h6>
                     <div class="row">
                         <div class="col-auto me-1">
                             <span class="iconify" data-icon="mdi:instagram" data-width="18"></span>
