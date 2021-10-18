@@ -14,10 +14,10 @@
         <a href="{{ url('products') }}" class="text-reset text-decoration-none"><span class="me-3">&#10094;</span>Kembali Ke Halaman Sebelumnya</a>
       </nav>
       <section class="text-center mb-100">
-        <header class="mb-40">
+        <div class="mb-40">
           <p class="text-blue-dark fw-bold">Koleksi Botol Plastik</p>
           <h1 class="fw-bold">{{ $detail['name'] }}</h1>
-        </header>
+        </div>
         <img src="{{ url($detail['image']) }}" alt="Foto produk" class="mb-40 img-product-details img-fluid">
         <ul class="list-group list-group-flush mb-30">
           <li class="list-group-item py-4">
@@ -51,10 +51,10 @@
         </a>
       </section>
       <section class="mb-100">
-        <header class="py-3 border-top border-bottom d-flex justify-content-between mb-60">
+        <div class="py-3 border-top border-bottom d-flex justify-content-between mb-60">
           <h2 class="fs-25 text-primary fw-bold mb-0">Produk Lainnya</h2>
           <a href="{{ url('products') }}" class="fw-medium text-decoration-none"><span class="me-3">&#10094;</span>Kembali Ke Halaman Sebelumnya</a>
-        </header>
+        </div>
         <div class="px-md-5">
           <div class="row px-md-3 mx-1 row-cols-2 row-cols-lg-4 g-2 g-lg-5 ">
             @for ($i = 4, $total = count($produk); $i < $total; $i++)
