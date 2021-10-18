@@ -12,24 +12,18 @@
   </div>
 </section>
 <main class="container">
-  <section class="text-center mb-120">
-    <header class="mb-5">
+  <section class="text-center mb-120 mx-125">
+    <div class="mb-5">
       <h2 class="fs-23 fw-bold text-primary">Profil Botolplastik.id</h2>
-    </header>
-    <p class="fs-20">Botolplastik.id adalah divisi distribusi dan penjualan retail dari korporasi industri plastik
-      terkemuka di Indonesia, yakni Suryasukses group.</p>
-    <p class="fs-16">Dengan hadirnya Botolplastik.id maka pelanggan retail dari berbagai industri dan UMKM seperti
-      industri restaurant, cafe, pabrik minuman dan makanan, farmasi dan suplemen dapat menemukan aneka ragam koleksi
-      produk dari Suryasukses group dan membelinya mulai dari kuantiti retail hingga kuantiti pasokan industri.</p>
-    <p class="fs-16">Seluruh produk yang dijual oleh Botolplastik.id adalah produk-produk terbaik yang lulus berbagai
-      macam skrining kualitas dan uji coba. Dengan rancangan desain yang terbukti efisiensinya dan bahan baku grade
-      terbaik, maka pelanggan dapat menjual produknya nilai lebih tinggi, serta dapat memberikan pengalaman lebih pada
-      konsumen marketnya.</p>
+    </div>
+    <p class="fs-20">Botolplastik.id adalah divisi distribusi dan penjualan retail dari korporasi industri plastik terkemuka di Indonesia, yakni Suryasukses group.</p>
+    <p class="fs-16">Dengan hadirnya Botolplastik.id maka pelanggan retail dari berbagai industri dan UMKM seperti industri restaurant, cafe, pabrik minuman dan makanan, farmasi dan suplemen dapat menemukan aneka ragam koleksi produk dari Suryasukses group dan membelinya mulai dari kuantiti retail hingga kuantiti pasokan industri.</p>
+    <p class="fs-16">Seluruh produk yang dijual oleh Botolplastik.id adalah produk-produk terbaik yang lulus berbagai macam skrining kualitas dan uji coba. Dengan rancangan desain yang terbukti efisiensinya dan bahan baku grade terbaik, maka pelanggan dapat menjual produknya nilai lebih tinggi, serta dapat memberikan pengalaman lebih pada konsumen marketnya.</p>
   </section>
-  <section class="text-center mb-60">
-    <header class="mb-5">
+  <section class="text-center mb-60 mx-125">
+    <div class="mb-5">
       <h2 class="fs-23 fw-bold text-primary">Keunggulan Botolplastik.id</h2>
-    </header>
+    </div>
     <p class="fs-16">
       Botolplastik.id berkomitmen untuk menyediakan hanya produk-produk yang terbaik yang akan mendukung kinerja usaha
       para pelanggan kami, memancing inovasi dan kreasi untuk mendatangkan kesuksesan pada usaha. Hal ini dapat terjadi
