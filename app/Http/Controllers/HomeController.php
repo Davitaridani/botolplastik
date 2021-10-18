@@ -25,17 +25,13 @@ class HomeController extends BaseController
 
   public function home()
   {
-    $applicationData = $this->loadData('../resources/data/applicationdata.json');
-    $bottleData = $this->loadData('../resources/data/bottledata.json');
-    $categoryData = $this->loadData('../resources/data/categorydata.json');
-    $customerData = $this->loadData('../resources/data/customerdata.json');
 
     return view('design1', [
       'title' => 'BotolPlastik',
-      'produk' => $bottleData,
-      'kategori' => $categoryData,
-      'aplikasi' => $applicationData,
-      'customer' => $customerData
+      'produk' => $this->loadData('../resources/data/bottledata.json'),
+      'kategori' => $this->loadData('../resources/data/categorydata.json'),
+      'aplikasi' => $this->loadData('../resources/data/applicationdata.json'),
+      'customer' => $this->loadData('../resources/data/customerdata.json')
     ]);
   }
 }

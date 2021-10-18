@@ -18,11 +18,13 @@ class ProductController extends Controller
     ]);
   }
 
-  public function details(LoadDataController $loader)
+  public function details(LoadDataController $loader, $id)
   {
+    $produk = $loader->loadData('../resources/data/bottledata.json');
     return view('details', [
-      'title' => 'Detail Produk',
-      'produk' => $loader->loadData('../resources/data/bottledata.json'),
+      'title' => "Detail Produk",
+      'produk' => $produk,
+      'detail' => $produk[$id],
       'kategori' => $loader->loadData('../resources/data/categorydata.json'),
       'customer' => $loader->loadData('../resources/data/customerdata.json')
     ]);

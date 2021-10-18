@@ -21,5 +21,5 @@ $router->get('home', 'HomeController@home');
 $router->get('about', 'AboutController@index');
 $router->get('products', 'ProductController@index');
 $router->get('contact', 'ContactController@index');
-$router->get('details', 'ProductController@details');
+$router->get('products/details/{id}', 'ProductController@details');
 

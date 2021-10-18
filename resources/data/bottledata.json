@@ -2,41 +2,81 @@
   {
     "image": "images/produk1.jpg",
     "name": "Botol Plastik 1",
-    "link": ""
+    "link": "",
+    "category": "",
+    "application": "",
+    "description": "",
+    "dimension": "",
+    "packing": ""
   },
   {
     "image": "images/produk2.jpg",
     "name": "Botol Plastik 2",
-    "link": ""
+    "link": "",
+    "category": "",
+    "application": "",
+    "description": "",
+    "dimension": "",
+    "packing": ""
   },
   {
     "image": "images/produk3.jpg",
     "name": "Botol Plastik 3",
-    "link": ""
+    "link": "",
+    "category": "",
+    "application": "",
+    "description": "",
+    "dimension": "",
+    "packing": ""
   },
   {
     "image": "images/produk4.jpg",
     "name": "Botol Plastik 4",
-    "link": ""
+    "link": "",
+    "category": "",
+    "application": "",
+    "description": "",
+    "dimension": "",
+    "packing": ""
   },
   {
     "image": "images/produk5.jpg",
     "name": "Botol Plastik 1",
-    "link": ""
+    "link": "",
+    "category": "",
+    "application": "",
+    "description": "",
+    "dimension": "",
+    "packing": ""
   },
   {
     "image": "images/produk6.jpg",
     "name": "Botol Plastik 2",
-    "link": ""
+    "link": "",
+    "category": "",
+    "application": "",
+    "description": "",
+    "dimension": "",
+    "packing": ""
   },
   {
     "image": "images/produk7.jpg",
     "name": "Botol Plastik 3",
-    "link": ""
+    "link": "",
+    "category": "",
+    "application": "",
+    "description": "",
+    "dimension": "",
+    "packing": ""
   },
   {
     "image": "images/produk8.jpg",
     "name": "Botol Plastik 4",
-    "link": ""
+    "link": "",
+    "category": "",
+    "application": "",
+    "description": "",
+    "dimension": "",
+    "packing": ""
   }
 ]
