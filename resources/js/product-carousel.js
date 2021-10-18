@@ -9,9 +9,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const tnsSlider = tns({
       container: slider,
       items: 1,
-      slideBy: 'page',
+      slideBy: 1,
       speed: 500,
-      autoplay: true,
+      autoplay: false,
       autoplayTimeout: 3000,
       autoplayHoverPause: true,
       prevButton: prevBtn[i],
