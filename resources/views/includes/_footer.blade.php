@@ -14,10 +14,10 @@
             <div class="col border-end">
                 <div class="ps-1 ps-md-4 fs-13">
                     <h6 class="fw-bold text-primary pt-30 fs-15 mb-30">Browse Botolplastik.id</h6>
-                    <a href="#" class="text-decoration-none text-dark link-hover">
+                    <a href="{{ url('about') }}" class="text-decoration-none text-dark link-hover">
                         <p>Tentang Kami</p>
                     </a>
-                    <a href="#" class="text-decoration-none text-dark link-hover">
+                    <a href="{{ url('contact') }}" class="text-decoration-none text-dark link-hover">
                         <p>Hubungi Kami</p>
                     </a>
                 </div>
@@ -68,7 +68,7 @@
     <div class="container mt-2 px-md-1 px-3  pt-2 border-bottom">
         <div class="row justify-content-between g-lg-0 g-3 mx-0 fs-11">
             <div class="col-md-8 d-md-flex justify-content-start-center">
-                <a href="{{ url('home#') }}" class="text-decoration-none text-dark">
+                <a href="{{ url('home') }}" class="text-decoration-none text-dark">
                     <img class="ukuran-logo-bawah me-30 mb-md-0 mb-3" src="{{ url('images/logo-botolplastik-bawah.png') }}" alt="botolplastik.id">
                 </a>
                 <p>Botolplastik.id adalah agen distribusi produk botol plastik dengan grade medis berkualitas, <br> melayani pelanggan di Surabaya, Jakarta, Semarang, Bali, Bandung, Yogyakarta, hingga ke seluruh wilayah di Indonesia.</p>
