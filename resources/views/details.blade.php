@@ -69,7 +69,7 @@
             <img src="{{ url($produk[$i]['image']) }}" class="card-img-top" alt="...">
             <div class="card-body text-center">
               <h6 class="card-title text-primary fw-bold py-24 fs-18">{{ $produk[$i]["name"] }}</h6>
-              <a href="#" class="btn btn-primary  fw-bold fs-15">Lihat Produk</a>
+              <a href="{{ url('products/details', ['id' => $i]) }}" class="btn btn-primary  fw-bold fs-15">Lihat Produk</a>
             </div>
           </div>
       </div>
