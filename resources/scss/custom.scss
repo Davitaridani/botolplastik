@@ -235,3 +235,10 @@ img.img-product-details {
   width: 784px;
 }
 
+.w-784 {
+  width: 784px;
+  @include responsive(lg) {
+    width: 100%;
+  }
+}
+
