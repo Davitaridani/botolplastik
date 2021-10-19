@@ -31,7 +31,7 @@
     <div class="container">
       <div class="row g-2 g-lg-3 mx-0 justify-content-between">
         @foreach ($customer as $item)
-        <div class="col-md-1 col-6 p-md-0 p-4 d-flex align-items-center justify-content-center">
+        <div class="col-md-1 col-6 d-flex align-items-center justify-content-center">
           <a href="{{ $item['link'] }}"><img src="{{ url($item['img']) }}" alt="customer" class="img-fluid"></a>
         </div>
         @endforeach
