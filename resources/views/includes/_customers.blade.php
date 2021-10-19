@@ -29,9 +29,9 @@
   </div>
   <div class="container py-4 border-top">
     <div class="container">
-      <div class="row g-2 g-lg-3 mx-0 justify-content-between">
+      <div class="list-inline mx-0 justify-content-center text-center">
         @foreach ($customer as $item)
-        <div class="col-md-1 col-6 d-flex align-items-center justify-content-center">
+        <div class="list-inline-item me-54">
           <a href="{{ $item['link'] }}"><img src="{{ url($item['img']) }}" alt="customer" class="img-fluid"></a>
         </div>
         @endforeach
