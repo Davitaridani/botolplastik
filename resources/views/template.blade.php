@@ -1,6 +1,6 @@
-<?php
+@php
 ob_start("minifier");
-  function minifier($code)
+function minifier($code)
 {
     $search = array(
 
@@ -20,7 +20,8 @@ ob_start("minifier");
     $code = preg_replace($search, $replace, $code);
     return $code;
 }
-?>
+@endphp
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,6 +32,7 @@ ob_start("minifier");
   <title>{{ $title }} - BotolPlastik.id</title>
   <link rel="stylesheet" href="{{ url('css/bootstrap.min.css') }}">
   <link rel="stylesheet" href="{{ url('css/custom.css') }}">
+  <link rel="stylesheet" href="{{ url('css/style2.css') }}">
 
   <!-- FontAwesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
@@ -47,6 +49,6 @@ ob_start("minifier");
 </body>
 
 </html>
-<?php 
+@php
 ob_end_flush(); 
-?>
+@endphp

@@ -12,16 +12,18 @@
   </div>
 </section>
 <main class="container">
-  <section class="text-center mb-120 mx-125">
-    <div class="mb-5">
+  
+  <section class="text-center mb-120 maw1021 d-block mx-auto">
+    <div class="mb-4 pb-2">
       <h2 class="fs-23 fw-bold text-primary">Profil Botolplastik.id</h2>
     </div>
-    <p class="fs-20">Botolplastik.id adalah divisi distribusi dan penjualan retail dari korporasi industri plastik terkemuka di Indonesia, yakni Suryasukses group.</p>
+    <p class="fs-20 fw-bold">Botolplastik.id adalah divisi distribusi dan penjualan retail dari korporasi industri plastik terkemuka di Indonesia, yakni Suryasukses group.</p>
     <p class="fs-16">Dengan hadirnya Botolplastik.id maka pelanggan retail dari berbagai industri dan UMKM seperti industri restaurant, cafe, pabrik minuman dan makanan, farmasi dan suplemen dapat menemukan aneka ragam koleksi produk dari Suryasukses group dan membelinya mulai dari kuantiti retail hingga kuantiti pasokan industri.</p>
     <p class="fs-16">Seluruh produk yang dijual oleh Botolplastik.id adalah produk-produk terbaik yang lulus berbagai macam skrining kualitas dan uji coba. Dengan rancangan desain yang terbukti efisiensinya dan bahan baku grade terbaik, maka pelanggan dapat menjual produknya nilai lebih tinggi, serta dapat memberikan pengalaman lebih pada konsumen marketnya.</p>
   </section>
-  <section class="text-center mb-60 mx-125">
-    <div class="mb-5">
+
+  <section class="text-center mb-60 maw1021 d-block mx-auto">
+    <div class="mb-4 pb-2">
       <h2 class="fs-23 fw-bold text-primary">Keunggulan Botolplastik.id</h2>
     </div>
     <p class="fs-16">
@@ -30,6 +32,7 @@
       akibat sinergi keunggulan kami berikut:
     </p>
   </section>
+
   <section class="mb-170">
     <div class="row row-cols-1 row-cols-md-3">
       @foreach ($keunggulan as $key => $value)
