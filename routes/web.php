@@ -13,11 +13,11 @@
 |
 */
 
-$router->get('/', function () use ($router) {
-    return $router->app->version();
-});
+// $router->get('/', function () use ($router) {
+//     return $router->app->version();
+// });
 
-$router->get('home', 'HomeController@home');
+$router->get('/', 'HomeController@home');
 $router->get('about', 'AboutController@index');
 $router->get('products', 'ProductController@index');
 $router->get('contact', 'ContactController@index');

@@ -1,82 +1,312 @@
 [
   {
-    "image": "images/produk1.jpg",
-    "name": "Botol Plastik 1",
+    "image": "images/produk/1.png",
+    "name": "BOTOL 100ML ROUND SN",
     "link": "",
-    "category": "",
-    "application": "",
-    "description": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "41x41x104 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/2.png",
+    "name": "BOTOL PIER 250 ML SN",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "58x58x128 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/3.png",
+    "name": "BOTOL CABE 200 ML SN",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "51x51x122 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/4.png",
+    "name": "BOTOL KICK 250 ML SN",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "50x50x131 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/5.png",
+    "name": "BOTOL 260 ML APPLE LN",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "62x62x127 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/6.png",
+    "name": "BOTOL SQUARE 250 ML LN",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "50x50x155 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/7.png",
+    "name": "BOTOL ALMOND 250 ML LN",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "51x51x156 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/8.png",
+    "name": "BOTOL ALMOND 250ML SN",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "51x51x156 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/9.png",
+    "name": "BOTOL TARO 250 ML LN",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "51x51x135 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/10.png",
+    "name": "BOTOL TIBET 500 ML LN",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "39x39x212 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/11.png",
+    "name": "BOTOL CANTIK 350 ML LN ( TEBAL )",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "66x66x155 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/12.png",
+    "name": "BOTOL CANTIK 350 ML SN ( TEBAL )",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "66x66x155 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/13.png",
+    "name": "BOTOL CANTIK 350 ML 14GR ( TIPIS )",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "66x66x155 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/14.png",
+    "name": "BOTOL ALMOND 500 ML SN",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "64x64x188 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/15.png",
+    "name": "BOTOL ROUND 820 ML",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "74x74x237 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/16.png",
+    "name": "BOTOL CANTIK 600ML SN",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "70x70x200 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/17.png",
+    "name": "BOTOL 490 ML LN",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "60x60x174 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/18.png",
+    "name": "BOTOL 510 ML LN",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "63x63x213 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/19.png",
+    "name": "BOTOL DIAMOND 330 ML LN",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "57x57x170 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/20.png",
+    "name": "BOTOL DIAMOND 330 ML SN",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "57x57x170 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/21.png",
+    "name": "BOTOL CLASSIC 330 ML LN",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
     "dimension": "",
     "packing": ""
   },
   {
-    "image": "images/produk2.jpg",
-    "name": "Botol Plastik 2",
+    "image": "images/produk/22.png",
+    "name": "BOTOL CLASSIC 600 ML LN",
     "link": "",
-    "category": "",
-    "application": "",
-    "description": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "66x66x222 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/23.png",
+    "name": "BOTOL CLASSIC 600 ML SN",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "66x66x222 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/24.png",
+    "name": "BOTOL DIAMOND 600 ML LN",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "66x66x228 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/25.png",
+    "name": "BOTOL 1000 ML",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "57x57x264 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/26.png",
+    "name": "BOTOL 1100 ML",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "78x78x298 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/27.png",
+    "name": "BOTOL 1500 ML LN",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "87x87x316 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/27.png",
+    "name": "BOTOL 1500 ML LN",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "87x87x316 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/28.png",
+    "name": "BOTOL 1500 ML SN",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "87x87x316 mm",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/29.png",
+    "name": "BOTOL KECAP 140 ML",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
     "dimension": "",
     "packing": ""
   },
   {
-    "image": "images/produk3.jpg",
-    "name": "Botol Plastik 3",
+    "image": "images/produk/30.png",
+    "name": "BOTOL KALE 1000 ML",
     "link": "",
-    "category": "",
-    "application": "",
-    "description": "",
-    "dimension": "",
-    "packing": ""
-  },
-  {
-    "image": "images/produk4.jpg",
-    "name": "Botol Plastik 4",
-    "link": "",
-    "category": "",
-    "application": "",
-    "description": "",
-    "dimension": "",
-    "packing": ""
-  },
-  {
-    "image": "images/produk5.jpg",
-    "name": "Botol Plastik 1",
-    "link": "",
-    "category": "",
-    "application": "",
-    "description": "",
-    "dimension": "",
-    "packing": ""
-  },
-  {
-    "image": "images/produk6.jpg",
-    "name": "Botol Plastik 2",
-    "link": "",
-    "category": "",
-    "application": "",
-    "description": "",
-    "dimension": "",
-    "packing": ""
-  },
-  {
-    "image": "images/produk7.jpg",
-    "name": "Botol Plastik 3",
-    "link": "",
-    "category": "",
-    "application": "",
-    "description": "",
-    "dimension": "",
-    "packing": ""
-  },
-  {
-    "image": "images/produk8.jpg",
-    "name": "Botol Plastik 4",
-    "link": "",
-    "category": "",
-    "application": "",
-    "description": "",
-    "dimension": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "83x83x231 mm",
     "packing": ""
   }
 ]

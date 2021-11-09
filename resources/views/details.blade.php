@@ -6,8 +6,8 @@
 <main class="container d-flex flex-column">
   <nav class="border-top border-bottom py-3 d-flex justify-content-between text-blue-dark fs-13 fw-medium mb-60">
     <ol class="breadcrumb mb-0">
-      <li class="breadcrumb-item"><a href="#" class="text-reset text-decoration-none">Home</a></li>
-      <li class="breadcrumb-item"><a href="#" class="text-reset text-decoration-none">Koleksi Botol Plastik</a></li>
+      <li class="breadcrumb-item"><a href="{{ url('/') }}" class="text-reset text-decoration-none">Home</a></li>
+      <li class="breadcrumb-item"><a href="{{ url('products') }}" class="text-reset text-decoration-none">Koleksi Botol Plastik</a></li>
       <li class="breadcrumb-item"><a href="#" class="text-reset text-decoration-none">PET Bottles</a></li>
       <li class="breadcrumb-item active fw-bold" aria-current="page">{{ $detail['name'] }}</li>
     </ol>
