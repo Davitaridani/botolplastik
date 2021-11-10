@@ -306,6 +306,16 @@
     "category": "PET Bottles",
     "application": "Beverage",
     "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/31.png",
+    "name": "BOTOL KALE 500 ML",
+    "link": "",
+    "category": "PET Bottles",
+    "application": "Beverage",
+    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
     "dimension": "83x83x231 mm",
     "packing": ""
   },
