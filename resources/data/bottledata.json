@@ -309,99 +309,10 @@
     "dimension": "83x83x231 mm",
     "packing": ""
   },
+
   {
-    "image": "images/produk/32.png",
-    "name": "BOTOL KALE 350 ML",
-    "link": "",
-    "category": "PET Bottles",
-    "application": "Beverage",
-    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
-    "dimension": "65x65x187 mm",
-    "packing": ""
-  },
-  {
-    "image": "images/produk/33.png",
-    "name": "BOTOL KALE 250 ML",
-    "link": "",
-    "category": "PET Bottles",
-    "application": "Beverage",
-    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
-    "dimension": "52x52x155 mm",
-    "packing": ""
-  },
-  {
-    "image": "images/produk/34.png",
-    "name": "BOTOL PRIMA 350 ML",
-    "link": "",
-    "category": "PET Bottles",
-    "application": "Beverage",
-    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
-    "dimension": "50x50x129 mm",
-    "packing": ""
-  },
-  {
-    "image": "images/produk/35.png",
-    "name": "BOTOL LEMON 250ML",
-    "link": "",
-    "category": "PET Bottles",
-    "application": "Beverage",
-    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
-    "dimension": "47x47x129 mm",
-    "packing": ""
-  },
-  {
-    "image": "images/produk/36.png",
-    "name": "BOTOL BOWLING 350 ML LN",
-    "link": "",
-    "category": "PET Bottles",
-    "application": "Beverage",
-    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
-    "dimension": "53x53x185 mm",
-    "packing": ""
-  },
-  {
-    "image": "images/produk/37.png",
-    "name": "BOTOL MADU 350 ML LN",
-    "link": "",
-    "category": "PET Bottles",
-    "application": "Beverage",
-    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
-    "dimension": "56x56x227 mm",
-    "packing": ""
-  },
-  {
-    "image": "images/produk/38.png",
-    "name": "BOTOL MADU 250ML LN",
-    "link": "",
-    "category": "PET Bottles",
-    "application": "Beverage",
-    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
-    "dimension": "52x52x186 mm",
-    "packing": ""
-  },
-  {
-    "image": "images/produk/39.png",
-    "name": "BOTOL MINYAK GORENG 250 ML LN",
-    "link": "",
-    "category": "PET Bottles",
-    "application": "Beverage",
-    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
-    "dimension": "45x45x154 mm",
-    "packing": ""
-  },
-  {
-    "image": "images/produk/40.png",
-    "name": "BOTOL KUDA 1000 ML LN",
-    "link": "",
-    "category": "PET Bottles",
-    "application": "Beverage",
-    "description": "Botol ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
-    "dimension": "79x79x240 mm",
-    "packing": ""
-  },
-  {
-    "image": "images/produk/41.png",
-    "name": "CUP BOLA MERAH 200 ML",
+    "image": "images/produk/61.png",
+    "name": "CUP MT 180 ML",
     "link": "",
     "category": "Drinking Cup",
     "application": "Beverage",
@@ -410,8 +321,8 @@
     "packing": ""
   },
   {
-    "image": "images/produk/42.png",
-    "name": "CUP BOLA ORANGE 200 ML",
+    "image": "images/produk/62.png",
+    "name": "CUP MT 160 ML",
     "link": "",
     "category": "Drinking Cup",
     "application": "Beverage",
@@ -420,8 +331,8 @@
     "packing": ""
   },
   {
-    "image": "images/produk/43.png",
-    "name": "CUP BOLAJ HIJAU 200 ML",
+    "image": "images/produk/63.png",
+    "name": "CUP MT 150 ML",
     "link": "",
     "category": "Drinking Cup",
     "application": "Beverage",
@@ -430,8 +341,8 @@
     "packing": ""
   },
   {
-    "image": "images/produk/44.png",
-    "name": "CUP BOLA BIRU 200 ML",
+    "image": "images/produk/64.png",
+    "name": "CUP PELANGI 220 ML ",
     "link": "",
     "category": "Drinking Cup",
     "application": "Beverage",
@@ -440,12 +351,112 @@
     "packing": ""
   },
   {
-    "image": "images/produk/45.png",
-    "name": "CUP SMILE 200 ML",
+    "image": "images/produk/65.png",
+    "name": "CUP PELANGI 150 ML",
     "link": "",
     "category": "Drinking Cup",
     "application": "Beverage",
     "description": "Gelas / cup plastik ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/66.png",
+    "name": "CUP PANTHER NAT 175 ML",
+    "link": "",
+    "category": "Drinking Cup",
+    "application": "Beverage",
+    "description": "Gelas / cup plastik ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/67.png",
+    "name": "CUP SPRING 120 ML",
+    "link": "",
+    "category": "Drinking Cup",
+    "application": "Beverage",
+    "description": "Gelas / cup plastik ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/68.png",
+    "name": "CUP POLOS 120 ML",
+    "link": "",
+    "category": "Drinking Cup",
+    "application": "Beverage",
+    "description": "Gelas / cup plastik ini cocok untuk digunakai sebagai wadah berbagai macam minuman seperti kopi, teh, susu, dan lain-lain. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk minuman atau makanan karena bersifat BPA-free dan foodgrade.",
+    "dimension": "",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/69.png",
+    "name": "TUTUP BOTOL LONG NECK",
+    "link": "",
+    "category": "HDPE Cap",
+    "application": "Beverage",
+    "description": "Tutup botol ini terbuat dari bahan HDPE cocok untuk botol plastik Long Neck dan hadir dalam berbagai macam warna. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk makanan atau minuman karena bersifat BPA-free dan foodgrade.",
+    "dimension": "",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/70.png",
+    "name": "TUTUP BOTOL SHORT NECK",
+    "link": "",
+    "category": "HDPE Cap",
+    "application": "Beverage",
+    "description": "Tutup botol ini terbuat dari bahan HDPE cocok untuk botol plastik Short Neck dan hadir dalam berbagai macam warna. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk makanan atau minuman karena bersifat BPA-free dan foodgrade.",
+    "dimension": "",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/71.png",
+    "name": "TUTUP BOTOL KALE",
+    "link": "",
+    "category": "HDPE Cap",
+    "application": "Beverage",
+    "description": "Tutup botol ini terbuat dari bahan HDPE cocok untuk botol plastik Kale dengan mulut botol yang lebih besar dan hadir dalam berbagai macam warna. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk makanan atau minuman karena bersifat BPA-free dan foodgrade.",
+    "dimension": "",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/72.png",
+    "name": "TUTUP BOTOL FLIP TOP",
+    "link": "",
+    "category": "HDPE Cap",
+    "application": "Beverage",
+    "description": "Tutup botol ini terbuat dari bahan HDPE cocok untuk botol minyak goreng dan hadir dalam warna kuning. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk makanan atau minuman karena bersifat BPA-free dan foodgrade.",
+    "dimension": "",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/73.png",
+    "name": "TUTUP BOTOL KECAP",
+    "link": "",
+    "category": "HDPE Cap",
+    "application": "Beverage",
+    "description": "Tutup botol ini terbuat dari bahan HDPE cocok untuk botol kecap dan hadir dalam warna merah. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk makanan atau minuman karena bersifat BPA-free dan foodgrade.",
+    "dimension": "",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/74.png",
+    "name": "LID TALL",
+    "link": "",
+    "category": "Lid",
+    "application": "Beverage",
+    "description": "Tutup gelas ini terbuat dari bahan PP cocok untuk segala ukuran cup oz. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk makanan atau minuman karena bersifat BPA-free dan foodgrade.",
+    "dimension": "",
+    "packing": ""
+  },
+  {
+    "image": "images/produk/75.png",
+    "name": "LID SQUARE",
+    "link": "",
+    "category": "Lid",
+    "application": "Beverage",
+    "description": "Tutup gelas ini terbuat dari bahan PP cocok untuk segala ukuran cup oz. Semua produk SAP diproduksi dengan standard ISO 9001 dan memiliki sertifikat keamanan pangan FSSC 2200. Selain itu, produk ini juga sangat aman untuk makanan atau minuman karena bersifat BPA-free dan foodgrade.",
     "dimension": "",
     "packing": ""
   },
