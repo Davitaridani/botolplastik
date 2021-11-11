@@ -54,7 +54,7 @@ body {
     background: linear-gradient(90deg, rgba(48, 83, 165, 1) 40%, rgba(255, 255, 255, 0) 100%);
   }
   &-banner {
-    background-image: url('../images/tentang/bg-banner.svg');
+    background-image: url("../images/tentang/bg-banner.svg");
     background-size: auto 100%;
     background-repeat: repeat-x;
   }
@@ -135,14 +135,14 @@ $mt: 27, 48, 50, 60, 75, 150;
   }
 }
 
-$me: 8, 12, 13, 15, 30, 54;
+$me: 8, 12, 13, 15, 20, 30, 54;
 @each $size in $me {
   .me-#{$size} {
     margin-right: #{$size}px !important;
   }
 }
 
-$ms: 12, 104;
+$ms: 12, 20, 104;
 @each $size in $ms {
   .ms-#{$size} {
     margin-left: #{$size}px !important;
@@ -228,8 +228,8 @@ footer .border-end {
 }
 
 .card-keunggulan {
-  background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(244,247,247,1) 100%);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(244, 247, 247, 1) 100%);
 }
 
 .sticky-below-nav {
@@ -250,7 +250,11 @@ img.img-product-details {
   }
 }
 
-.h-120 {
-  min-height: 120px
+.h- {
+  &120 {
+    min-height: 120px;
+  }
+  &165 {
+    min-height: 165px;
+  }
 }
-
