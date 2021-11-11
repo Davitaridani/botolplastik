@@ -188,7 +188,7 @@
             @foreach ($produk as $key => $items)
             <div class="col">
               <div class="card bg-white border-0 mb-4 mb-md-0">
-                <img src="{{ url($items['image']) }}" class="card-img-top" alt="...">
+                <img src="{{ url($items['image']) }}" class="card-img-top" loading="lazy" alt="...">
                 <div class="card-body text-center">
                   <h6 class="card-title text-primary fw-bold py-24 fs-18">{{ $items["name"] }}</h6>
                   <a href="products/details/{{ $key }}" class="btn btn-primary  fw-bold fs-15">Lihat Produk</a>
@@ -221,8 +221,8 @@
     </div>
   </section>
   @include('includes._customers')
+  @include('includes._footer')
 </main>
-@include('includes._footer')
 @endsection
 
 @push('script')
