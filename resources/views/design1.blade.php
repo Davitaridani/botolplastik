@@ -120,7 +120,7 @@
                   <img src="{{ url($items['image']) }}" class="card-img-top" alt="...">
                   <div class="card-body text-center">
                     <h6 class="card-title text-primary fw-bold py-24 fs-18">{{ $items["name"] }}</h6>
-                    <a href="#" class="btn btn-primary  fw-bold fs-15">Lihat Produk</a>
+                    <a href="products/details/{{ $key }}" class="btn btn-primary  fw-bold fs-15">Lihat Produk</a>
                   </div>
                 </div>
               </div>
@@ -159,7 +159,7 @@
                   <img src="{{ url($items['image']) }}" class="card-img-top" alt="...">
                   <div class="card-body text-center">
                     <h6 class="card-title text-primary fw-bold py-24 fs-18">{{ $items["name"] }}</h6>
-                    <a href="#" class="btn btn-primary  fw-bold fs-15">Lihat Produk</a>
+                    <a href="products/details/{{ $key }}" class="btn btn-primary  fw-bold fs-15">Lihat Produk</a>
                   </div>
                 </div>
               </div>
@@ -191,7 +191,7 @@
                 <img src="{{ url($items['image']) }}" class="card-img-top" alt="...">
                 <div class="card-body text-center">
                   <h6 class="card-title text-primary fw-bold py-24 fs-18">{{ $items["name"] }}</h6>
-                  <a href="#" class="btn btn-primary  fw-bold fs-15">Lihat Produk</a>
+                  <a href="products/details/{{ $key }}" class="btn btn-primary  fw-bold fs-15">Lihat Produk</a>
                 </div>
               </div>
             </div>

@@ -1,7 +1,7 @@
 <header>
   <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top py-0 d-none d-lg-flex h-120" id="navbar-lg">
       <div class="container">
-        <a href="{{ url('home') }}" class="navbar-brand p-0"><img src="{{ url('images/logo-botolplastik.png') }}"
+        <a href="{{ url('/') }}" class="navbar-brand p-0"><img src="{{ url('images/logo-botolplastik.png') }}"
             class="brand-md-cs" alt=""></a>
         <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,7 +10,7 @@
         <div class="collapse navbar-collapse justify-content-end align-self-end" id="navbarNav">
           <ul class="navbar-nav fw-bold text-center fs-15 align-items-end">
             <li class="nav-item ms-12 me-12">
-              <a class="nav-link p-0 active" href="{{ url('home') }}">Home</a>
+              <a class="nav-link p-0 active" href="{{ url('/') }}">Home</a>
             </li>
             <li class="nav-item ms-12 me-12">
               <a class="nav-link p-0" href="{{ url('about') }}">Tentang Kami</a>
