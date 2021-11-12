@@ -1,6 +1,7 @@
 @extends('template')
 @section('content')
 <main class="wrapper" id="main">
+  {{-- Include About --}}
 
   @include('includes._header')
 
